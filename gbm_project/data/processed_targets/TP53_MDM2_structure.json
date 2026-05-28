@@ -1,0 +1,907 @@
+{
+  "target_name": "TP53_MDM2",
+  "pdb_id": "XXXX",
+  "metadata": {
+    "entity_id": "1",
+    "resolution": null,
+    "experimental_method": "X-RAY DIFFRACTION",
+    "title": "",
+    "deposition_date": "",
+    "gene_name": null,
+    "organism": null,
+    "mutation_info": null
+  },
+  "sequence": {
+    "sequence": "SQIPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVVVNXXXXXXXXXXXXXXXXXXX",
+    "length": 114,
+    "chains": [
+      "A"
+    ]
+  },
+  "structure": {
+    "atoms_count": 2023,
+    "residues_count": 114,
+    "secondary_structures_count": 0
+  },
+  "binding_sites": [
+    {
+      "site_id": "site_allosteric_1",
+      "site_name": "Predicted allosteric site 1",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 7.0,
+      "volume": 343.0,
+      "properties": {
+        "type": "allosteric",
+        "predicted": true
+      },
+      "residue_count": 20,
+      "atoms_count": 0,
+      "key_residues": [
+        "GLU6",
+        "GLU8",
+        "ARG12",
+        "LYS14",
+        "LYS36",
+        "LYS39",
+        "LYS45",
+        "ASP46",
+        "LYS51",
+        "GLU52"
+      ]
+    }
+  ],
+  "ligands": [],
+  "metal_ions": [],
+  "secondary_structures": [],
+  "detailed_residues": [
+    {
+      "seq_num": 1,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 1
+    },
+    {
+      "seq_num": 2,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 2
+    },
+    {
+      "seq_num": 3,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 3
+    },
+    {
+      "seq_num": 4,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 3
+    },
+    {
+      "seq_num": 5,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 4
+    },
+    {
+      "seq_num": 6,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 5
+    },
+    {
+      "seq_num": 7,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 6
+    },
+    {
+      "seq_num": 8,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 7
+    },
+    {
+      "seq_num": 9,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 8
+    },
+    {
+      "seq_num": 10,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 9
+    },
+    {
+      "seq_num": 11,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 10
+    },
+    {
+      "seq_num": 12,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 11
+    },
+    {
+      "seq_num": 13,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 12
+    },
+    {
+      "seq_num": 14,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 13
+    },
+    {
+      "seq_num": 15,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 14
+    },
+    {
+      "seq_num": 16,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 15
+    },
+    {
+      "seq_num": 17,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 16
+    },
+    {
+      "seq_num": 18,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 17
+    },
+    {
+      "seq_num": 19,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 18
+    },
+    {
+      "seq_num": 20,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 36
+    },
+    {
+      "seq_num": 21,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 37
+    },
+    {
+      "seq_num": 22,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 38
+    },
+    {
+      "seq_num": 23,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 39
+    },
+    {
+      "seq_num": 24,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 40
+    },
+    {
+      "seq_num": 25,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 41
+    },
+    {
+      "seq_num": 26,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 42
+    },
+    {
+      "seq_num": 27,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 43
+    },
+    {
+      "seq_num": 28,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 44
+    },
+    {
+      "seq_num": 29,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 45
+    },
+    {
+      "seq_num": 30,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 46
+    },
+    {
+      "seq_num": 31,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 47
+    },
+    {
+      "seq_num": 32,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 48
+    },
+    {
+      "seq_num": 33,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 49
+    },
+    {
+      "seq_num": 34,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 50
+    },
+    {
+      "seq_num": 35,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 51
+    },
+    {
+      "seq_num": 36,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 52
+    },
+    {
+      "seq_num": 37,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 53
+    },
+    {
+      "seq_num": 38,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 54
+    },
+    {
+      "seq_num": 39,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 55
+    },
+    {
+      "seq_num": 40,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 56
+    },
+    {
+      "seq_num": 41,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 57
+    },
+    {
+      "seq_num": 42,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 58
+    },
+    {
+      "seq_num": 43,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 59
+    },
+    {
+      "seq_num": 44,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 60
+    },
+    {
+      "seq_num": 45,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 61
+    },
+    {
+      "seq_num": 46,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 62
+    },
+    {
+      "seq_num": 47,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 63
+    },
+    {
+      "seq_num": 48,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 64
+    },
+    {
+      "seq_num": 49,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 65
+    },
+    {
+      "seq_num": 50,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 66
+    },
+    {
+      "seq_num": 51,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 67
+    },
+    {
+      "seq_num": 52,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 68
+    },
+    {
+      "seq_num": 53,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 69
+    },
+    {
+      "seq_num": 54,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 70
+    },
+    {
+      "seq_num": 55,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 71
+    },
+    {
+      "seq_num": 56,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 72
+    },
+    {
+      "seq_num": 57,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 73
+    },
+    {
+      "seq_num": 58,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 74
+    },
+    {
+      "seq_num": 59,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 75
+    },
+    {
+      "seq_num": 60,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 76
+    },
+    {
+      "seq_num": 61,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 77
+    },
+    {
+      "seq_num": 62,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 78
+    },
+    {
+      "seq_num": 63,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 79
+    },
+    {
+      "seq_num": 64,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 80
+    },
+    {
+      "seq_num": 65,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 81
+    },
+    {
+      "seq_num": 66,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 82
+    },
+    {
+      "seq_num": 67,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 83
+    },
+    {
+      "seq_num": 68,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 84
+    },
+    {
+      "seq_num": 69,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 85
+    },
+    {
+      "seq_num": 70,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 86
+    },
+    {
+      "seq_num": 71,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 87
+    },
+    {
+      "seq_num": 72,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 88
+    },
+    {
+      "seq_num": 73,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 89
+    },
+    {
+      "seq_num": 74,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 90
+    },
+    {
+      "seq_num": 75,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 91
+    },
+    {
+      "seq_num": 76,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 92
+    },
+    {
+      "seq_num": 77,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 93
+    },
+    {
+      "seq_num": 78,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 94
+    },
+    {
+      "seq_num": 79,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 95
+    },
+    {
+      "seq_num": 80,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 96
+    },
+    {
+      "seq_num": 81,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 97
+    },
+    {
+      "seq_num": 82,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 98
+    },
+    {
+      "seq_num": 83,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 99
+    },
+    {
+      "seq_num": 84,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 100
+    },
+    {
+      "seq_num": 85,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 101
+    },
+    {
+      "seq_num": 86,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 102
+    },
+    {
+      "seq_num": 87,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 103
+    },
+    {
+      "seq_num": 88,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 104
+    },
+    {
+      "seq_num": 89,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 105
+    },
+    {
+      "seq_num": 90,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 106
+    },
+    {
+      "seq_num": 91,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 107
+    },
+    {
+      "seq_num": 92,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 108
+    },
+    {
+      "seq_num": 93,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 109
+    },
+    {
+      "seq_num": 94,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 110
+    },
+    {
+      "seq_num": 95,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 111
+    },
+    {
+      "seq_num": 1,
+      "aa_type": "ACE",
+      "chain_id": "A",
+      "auth_seq_id": 1
+    },
+    {
+      "seq_num": 2,
+      "aa_type": "DAS",
+      "chain_id": "A",
+      "auth_seq_id": 2
+    },
+    {
+      "seq_num": 3,
+      "aa_type": "DPR",
+      "chain_id": "A",
+      "auth_seq_id": 3
+    },
+    {
+      "seq_num": 4,
+      "aa_type": "DAL",
+      "chain_id": "A",
+      "auth_seq_id": 3
+    },
+    {
+      "seq_num": 5,
+      "aa_type": "DTR",
+      "chain_id": "A",
+      "auth_seq_id": 4
+    },
+    {
+      "seq_num": 6,
+      "aa_type": "DSG",
+      "chain_id": "A",
+      "auth_seq_id": 5
+    },
+    {
+      "seq_num": 7,
+      "aa_type": "DHI",
+      "chain_id": "A",
+      "auth_seq_id": 6
+    },
+    {
+      "seq_num": 8,
+      "aa_type": "DCY",
+      "chain_id": "A",
+      "auth_seq_id": 7
+    },
+    {
+      "seq_num": 9,
+      "aa_type": "DGL",
+      "chain_id": "A",
+      "auth_seq_id": 8
+    },
+    {
+      "seq_num": 10,
+      "aa_type": "DTY",
+      "chain_id": "A",
+      "auth_seq_id": 9
+    },
+    {
+      "seq_num": 11,
+      "aa_type": "DAL",
+      "chain_id": "A",
+      "auth_seq_id": 10
+    },
+    {
+      "seq_num": 12,
+      "aa_type": "DAL",
+      "chain_id": "A",
+      "auth_seq_id": 11
+    },
+    {
+      "seq_num": 13,
+      "aa_type": "DPN",
+      "chain_id": "A",
+      "auth_seq_id": 12
+    },
+    {
+      "seq_num": 14,
+      "aa_type": "DVA",
+      "chain_id": "A",
+      "auth_seq_id": 13
+    },
+    {
+      "seq_num": 15,
+      "aa_type": "DCY",
+      "chain_id": "A",
+      "auth_seq_id": 14
+    },
+    {
+      "seq_num": 16,
+      "aa_type": "DSN",
+      "chain_id": "A",
+      "auth_seq_id": 15
+    },
+    {
+      "seq_num": 17,
+      "aa_type": "DGL",
+      "chain_id": "A",
+      "auth_seq_id": 16
+    },
+    {
+      "seq_num": 18,
+      "aa_type": "DVA",
+      "chain_id": "A",
+      "auth_seq_id": 17
+    },
+    {
+      "seq_num": 19,
+      "aa_type": "NH2",
+      "chain_id": "A",
+      "auth_seq_id": 18
+    }
+  ],
+  "pharmacophore_features": {
+    "hydrophobic_regions": [
+      "ILE3",
+      "PRO3",
+      "ALA4",
+      "LEU10",
+      "VAL11",
+      "PRO13",
+      "PRO15",
+      "LEU16",
+      "LEU17",
+      "LEU18",
+      "LEU37",
+      "LEU38",
+      "VAL41",
+      "ALA43",
+      "MET50",
+      "VAL53",
+      "LEU54",
+      "PHE55",
+      "LEU57",
+      "ILE61",
+      "MET62",
+      "LEU66",
+      "ILE74",
+      "VAL75",
+      "LEU81",
+      "LEU82",
+      "LEU85",
+      "PHE86",
+      "VAL88",
+      "PRO89",
+      "PHE91",
+      "VAL93",
+      "ILE99",
+      "MET102",
+      "ILE103",
+      "LEU107",
+      "VAL108",
+      "VAL109",
+      "VAL110"
+    ],
+    "hydrogen_bond_donors": [
+      "SER1",
+      "SER5",
+      "THR9",
+      "ARG12",
+      "LYS14",
+      "LYS36",
+      "LYS39",
+      "SER40",
+      "LYS45",
+      "THR47",
+      "TYR48",
+      "THR49",
+      "LYS51",
+      "TYR56",
+      "TYR60",
+      "THR63",
+      "LYS64",
+      "ARG65",
+      "TYR67",
+      "LYS70",
+      "HIS73",
+      "TYR76",
+      "CYS77",
+      "SER78",
+      "SER90",
+      "SER92",
+      "LYS94",
+      "HIS96",
+      "ARG97",
+      "LYS98",
+      "TYR100",
+      "THR101",
+      "TYR104",
+      "ARG105"
+    ],
+    "hydrogen_bond_acceptors": [
+      "SER1",
+      "GLN2",
+      "SER5",
+      "GLU6",
+      "GLN7",
+      "GLU8",
+      "THR9",
+      "SER40",
+      "GLN44",
+      "ASP46",
+      "THR47",
+      "TYR48",
+      "THR49",
+      "GLU52",
+      "TYR56",
+      "GLN59",
+      "TYR60",
+      "THR63",
+      "TYR67",
+      "ASP68",
+      "GLU69",
+      "GLN71",
+      "GLN72",
+      "TYR76",
+      "CYS77",
+      "SER78",
+      "ASN79",
+      "ASP80",
+      "ASP84",
+      "SER90",
+      "SER92",
+      "GLU95",
+      "TYR100",
+      "THR101",
+      "TYR104",
+      "ASN106",
+      "ASN111"
+    ],
+    "aromatic_regions": [
+      "TYR48",
+      "PHE55",
+      "TYR56",
+      "TYR60",
+      "TYR67",
+      "HIS73",
+      "TYR76",
+      "PHE86",
+      "PHE91",
+      "HIS96",
+      "TYR100",
+      "TYR104"
+    ],
+    "positive_charge": [
+      "ARG12",
+      "LYS14",
+      "LYS36",
+      "LYS39",
+      "LYS45",
+      "LYS51",
+      "LYS64",
+      "ARG65",
+      "LYS70",
+      "HIS73",
+      "LYS94",
+      "HIS96",
+      "ARG97",
+      "LYS98",
+      "ARG105"
+    ],
+    "negative_charge": [
+      "GLU6",
+      "GLU8",
+      "ASP46",
+      "GLU52",
+      "ASP68",
+      "GLU69",
+      "ASP80",
+      "ASP84",
+      "GLU95"
+    ],
+    "metal_coordination_sites": []
+  }
+}

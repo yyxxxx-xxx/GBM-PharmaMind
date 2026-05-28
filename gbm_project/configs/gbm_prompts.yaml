@@ -1,0 +1,379 @@
+### GBM Domain Knowledge Prompts (English Version)
+
+base_gbm_prompt: |
+  You are an expert in GBM drug development, specializing in novel drug candidates for Glioblastoma Multiforme (GBM).
+  You need to generate candidate compounds based on GBM biological characteristics, clinical treatment experience, and molecular design principles.
+
+  Key GBM biological characteristics:
+  - High heterogeneity and invasiveness
+  - Blood-brain barrier (BBB) limiting drug entry
+  - Multiple resistance mechanisms
+  - Immunosuppressive microenvironment
+  - Stem cell subpopulations causing recurrence
+
+  GBM treatment challenges:
+  - TMZ chemotherapy resistance rate up to 90%
+  - Poor prognosis for recurrent GBM
+  - Damage to normal brain tissue
+  - Tumor heterogeneity leading to treatment failure
+
+  Please design novel drug candidates with the following characteristics:
+  {specific_requirements}
+
+target_specific_prompts:
+  EGFR: |
+    Design GBM candidates targeting the EGFR pathway:
+
+    EGFR role in GBM:
+    - Most common gene amplification (~40%)
+    - EGFRvIII mutation with immunogenicity
+    - Drives excessive tumor cell proliferation
+
+    Design requirements:
+    - Prioritize targeting EGFRvIII mutants
+    - Overcome resistance mechanisms (T790M, etc.)
+    - Optimize blood-brain barrier penetration
+    - Reduce wild-type EGFR toxicity
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-4
+    - Tyrosine kinase inhibitor structure
+
+  VEGF_VEGFR: |
+    Design GBM anti-angiogenic drugs targeting VEGF/VEGFR pathways:
+
+    VEGF role in GBM:
+    - Drives pathological angiogenesis
+    - Promotes tumor growth and invasion
+    - Creates immunosuppressive microenvironment
+
+    Design requirements:
+    - Small molecule oral formulations
+    - Overcome vascular normalization paradox
+    - Potential for combination with immunotherapy
+    - Reduce bleeding risk
+
+    Molecular features:
+    - Molecular weight: 450-600 Da
+    - logP: 1-3
+    - VEGFR inhibitor pharmacophores
+
+  IDH1_IDH2: |
+    Design GBM candidates targeting IDH1/IDH2 mutations:
+
+    IDH mutations in GBM:
+    - Mainly in secondary GBM (~10%)
+    - Leads to 2-HG accumulation
+    - Affects epigenetic regulation
+
+    Design requirements:
+    - IDH1/2 selective inhibition
+    - Target mutants (R132H, R172K)
+    - Improve clinical prognosis
+    - Potential immunomodulatory effects
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-4
+    - IDH inhibitor structure
+
+  MGMT: |
+    Design GBM candidates targeting MGMT-mediated TMZ resistance:
+
+    MGMT role in GBM:
+    - Repairs TMZ-induced DNA damage
+    - MGMT expression levels affect prognosis
+    - Epigenetic silencing can reverse resistance
+
+    Design requirements:
+    - Bypass MGMT repair mechanisms
+    - Target MGMT-expressing tumors
+    - Overcome multidrug resistance
+    - Potential for combination with TMZ
+
+    Molecular features:
+    - Molecular weight: 350-500 Da
+    - logP: 1-3
+    - DNA damage enhancers
+
+  GBM_Stem_Cells: |
+    Design candidates targeting GBM stem cells:
+
+    GBM stem cell features:
+    - Express CD133, SOX2, OLIG2
+    - Highly resistant and invasive
+    - Cause tumor recurrence
+
+    Design requirements:
+    - Induce stem cell differentiation
+    - Target stem cell-specific pathways
+    - Overcome multidrug resistance
+    - Reduce toxicity to normal stem cells
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-5
+    - Stem cell differentiation inducers
+
+cot_reasoning_templates:
+  step_by_step_design: |
+    Chain-of-Thought: GBM Drug Design with Market Reference Protocol
+
+    OBJECTIVE: Design GBM drug candidates with molecular weight 300-500 Da that maximize composite score.
+
+    STEP 1: Reference Market GBM Drugs Analysis
+    - Analyze successful GBM drugs: Erlotinib (BBB high, MW 393), Gefitinib (BBB high, MW 446), Afatinib (BBB high, MW 486), Osimertinib (BBB high, MW 500)
+    - Key patterns: Quinazoline/indole scaffolds, small lipophilic substituents, MW 400-500 Da
+    - BBB-permeable cores: quinazoline (c1ccc2c(c1)cncn2), pyrimidine (c1cncnc1), imidazotetrazine (c1nc2nnc(cn2)n1)
+    - Selective warheads: acrylamide (C=CC(=O)N), cyanoacrylamide (C=CC(=O)NC#N)
+    - BBB enhancers: fluorine (F), methoxy (OC), methyl (C), ethyl (CC), trifluoromethyl (C(F)(F)F)
+
+    STEP 2: Target Analysis & Size Constraints
+    - Target: EGFR pathway (focus on EGFRvIII mutant selectivity)
+    - STRICT SIZE LIMIT: Molecular weight MUST be 300-500 Da (optimal BBB range like Erlotinib/Afatinib)
+    - Property targets: LogP 2.0-4.0, TPSA <90 Å², HBD ≤2, HBA ≤6
+
+    STEP 3: Scaffold Selection from Market References
+    - Primary scaffold: quinazoline (Erlotinib/Gefitinib/Afatinib reference)
+    - Alternative: pyrimidine or indole (Osimertinib reference)
+    - Avoid antibody-based approaches (Bevacizumab - poor BBB)
+    - Reference molecules: Erlotinib SMILES: COCCOc1cc2c(cc1OCCOC)ncnc2Nc3cccc(c3)C#C
+
+    STEP 4: Fragment Assembly Strategy
+    - Start with BBB-permeable core scaffold (150-200 Da)
+    - Add EGFR-selective warheads (acrylamide/methacrylamide: 50-100 Da)
+    - Include BBB-enhancing substituents (fluorine, methoxy, methyl, ethyl groups: 20-80 Da)
+    - Keep total MW in 300-500 Da range (match successful drugs)
+    - Avoid simple aromatic hydrocarbons as standalone molecules
+
+    STEP 5: Property Prediction & Market Drug Comparison
+    - Compare with Erlotinib: MW 393, LogP 4.2, TPSA 75, BBB high
+    - Compare with Afatinib: MW 486, LogP 4.4, TPSA 90, BBB high
+    - Adjust substituents to match these property profiles
+    - Prioritize BBB classification (target: high, like references)
+
+    STEP 6: Selectivity & Safety Checks
+    - Ensure EGFRvIII > WT selectivity (≥10-fold)
+    - Minimize normal cell toxicity (<4.0)
+    - Verify synthetic accessibility (target ≥7/10, like approved drugs)
+    - Compare toxicity profile with Temozolomide reference
+
+    STEP 7: Generate & Validate Candidates
+    - Propose 10 unique SMILES with MW 300-500 Da
+    - Each must follow market drug structural patterns
+    - Predict properties and estimate composite score (>0.70 target)
+    - Return only candidates meeting all constraints
+
+    Based on market GBM drug analysis, design optimal candidates:
+
+  clinical_relevance_assessment: |
+    Assess molecular design from clinical perspective:
+
+    Clinical translation potential:
+    - Oral bioavailability
+    - Plasma half-life and dosing frequency
+    - Potential drug-drug interactions
+    - Preclinical toxicity predictions
+
+    GBM treatment advantages:
+    - Overcome limitations of existing treatments
+    - Improve progression-free survival
+    - Reduce treatment-related adverse events
+    - Improve patient quality of life
+
+    Development feasibility:
+    - Synthetic route complexity
+    - Scale-up production costs
+    - Intellectual property status
+    - Clinical trial design
+
+constraint_templates:
+  bbb_optimization: |
+    Blood-brain barrier penetration optimization requirements:
+    - Molecular weight < {mw_threshold} Da
+    - logP in range {logp_min}-{logp_max}
+    - TPSA < {tpsa_threshold} Å²
+    - HBD ≤ {hbd_max}
+    - Avoid highly polar groups
+
+  selectivity_design: |
+    GBM selectivity design principles:
+    - Target GBM-specific mutations
+    - Minimize toxicity to normal cells
+    - Consider tumor microenvironment differences
+    - Optimize therapeutic index
+
+  resistance_evasion: |
+    Resistance evasion strategies:
+    - Multi-target synergistic effects
+    - Irreversible binding mechanisms
+    - Bypass major resistance pathways
+    - Dynamic adaptive design
+
+evaluation_prompts:
+  bbb_assessment: |
+    Assess the blood-brain barrier penetration potential of the molecule:
+    - Analyze physicochemical properties
+    - Predict BBB permeability coefficient
+    - Identify potential transport mechanisms
+    - Evaluate clinical translation potential
+
+  gbm_activity_prediction: |
+    Predict therapeutic activity of molecule against GBM:
+    - Target binding affinity
+    - Cell growth inhibition effects
+    - Apoptosis induction capability
+    - Anti-tumor invasion effects
+
+  toxicity_evaluation: |
+    Assess potential toxicity risks:
+    - Normal cell toxicity
+    - Organ-specific toxicity
+    - Genotoxicity risks
+    - Immunotoxicity assessment
+
+# Tree-of-Thoughts (ToT) Design Templates
+# These templates support multi-step reasoning with breadth-first search (BFS) strategy
+tot_design_nodes:
+  propose_scaffold: |
+    You are designing GBM drug candidates targeting {target_name}.
+    Requirements: MW {mw_range}, BBB {bbb_requirement}, LogP {logp_range}.
+    
+    Output exactly 3 scaffold proposals in this exact format:
+    
+    Scaffold 1:
+    Name: quinazoline
+    Rationale: Suitable for EGFR targeting with good BBB penetration
+    Base MW: 160 Da
+    BBB Potential: high
+    
+    Scaffold 2:
+    Name: pyrimidine
+    Rationale: Lightweight scaffold for BBB penetration
+    Base MW: 80 Da
+    BBB Potential: high
+    
+    Scaffold 3:
+    Name: indole
+    Rationale: Flexible scaffold for diverse modifications
+    Base MW: 117 Da
+    BBB Potential: medium
+    
+    Now generate your 3 scaffold proposals following the exact format above:
+
+  propose_assembly: |
+    Tree-of-Thoughts: Fragment Assembly Strategy Step
+    
+    CONTEXT:
+    {domain_prompt}
+    
+    CURRENT STATE: Selected scaffold - {selected_scaffold}
+    Scaffold base MW: {scaffold_mw} Da
+    Remaining MW budget: {remaining_mw} Da (target total: {target_mw} Da)
+    
+    TASK: Propose 3 different fragment assembly strategies to complete the molecule design using the selected scaffold.
+    
+    Each assembly strategy should specify:
+    1. Warhead type (e.g., acrylamide, cyanoacrylamide, reversible inhibitor group)
+    2. Key substituents for BBB enhancement (e.g., fluorine, methoxy, methyl, trifluoromethyl)
+    3. Estimated total MW after assembly
+    4. Expected LogP range
+    5. Expected TPSA (must be > 0, typically 40-120 Å² for BBB penetration)
+    6. Rationale for this specific combination
+    
+    OUTPUT FORMAT (strictly follow):
+    Strategy 1:
+    Warhead: <warhead_type>
+    BBB Enhancers: <list_of_substituents>
+    Estimated Total MW: <total_mw> Da
+    Expected LogP: <logp_range>
+    Expected TPSA: <tpsa_range> Å²
+    Rationale: <brief_reasoning>
+    
+    Strategy 2:
+    Warhead: <warhead_type>
+    BBB Enhancers: <list_of_substituents>
+    Estimated Total MW: <total_mw> Da
+    Expected LogP: <logp_range>
+    Expected TPSA: <tpsa_range> Å²
+    Rationale: <brief_reasoning>
+    
+    Strategy 3:
+    Warhead: <warhead_type>
+    BBB Enhancers: <list_of_substituents>
+    Estimated Total MW: <total_mw> Da
+    Expected LogP: <logp_range>
+    Expected TPSA: <tpsa_range> Å²
+    Rationale: <brief_reasoning>
+    
+    Generate exactly 3 distinct assembly strategies:
+
+  generate_smiles: |
+    Tree-of-Thoughts: SMILES Generation Step
+    
+    CONTEXT:
+    {domain_prompt}
+    
+    CURRENT STATE:
+    Selected Scaffold: {selected_scaffold}
+    Assembly Strategy: {assembly_strategy}
+    Warhead: {warhead_type}
+    BBB Enhancers: {bbb_enhancers}
+    Target MW: {target_mw} Da
+    Target LogP: {target_logp_range}
+    Target TPSA: {target_tpsa_range} (must be > 0 for BBB penetration)
+    
+    TASK: Generate 3 specific candidate molecule SMILES strings based on the scaffold and assembly strategy above.
+    
+    Each SMILES must:
+    1. Incorporate the selected scaffold structure
+    2. Include the specified warhead
+    3. Include the BBB-enhancing substituents
+    4. Meet the MW and LogP constraints
+    5. Be synthetically accessible
+    6. Follow valid SMILES notation
+    7. Have a Topological Polar Surface Area (TPSA) > 0 (typically 40-120 Å² for BBB penetration).
+       TPSA must NOT be zero. Avoid all-carbon non-polar structures. Include polar groups like
+       amide, amine, hydroxyl, ether, or heterocycle to ensure TPSA > 0.
+    
+    CRITICAL: You MUST output actual SMILES strings, NOT placeholder text, NOT descriptive words, NOT explanations. Only output the SMILES notation itself.
+    
+    EXAMPLE OF CORRECT FORMAT:
+    SMILES 1: Cc1cc(c(c(c1C)OC)OC)c2ccc(cc2)C(=O)Nc3ccc(cc3)O
+    SMILES 2: CC(=O)Nc1ccc(cc1)Oc2cc(cc(c2C)OC)OC
+    SMILES 3: COc1cc(cc(c1OC)C)c2ccc(cc2)C(=O)Nc3ccc(cc3)O
+    
+    OUTPUT FORMAT (strictly follow - output ONLY actual SMILES strings):
+    SMILES 1: [actual SMILES string here, e.g., Cc1cc(c(c(c1C)OC)OC)c2ccc(cc2)C(=O)Nc3ccc(cc3)O]
+    SMILES 2: [actual SMILES string here]
+    SMILES 3: [actual SMILES string here]
+    
+    DO NOT output placeholder text like "<valid_smiles_string>" or descriptive words. Output ONLY the actual SMILES notation.
+    
+    Generate exactly 3 valid SMILES strings (one per line):
+
+  evaluate_state: |
+    Tree-of-Thoughts: State Evaluation Step
+    
+    CONTEXT:
+    {domain_prompt}
+    
+    PARTIAL SOLUTION TO EVALUATE:
+    {partial_solution}
+    
+    TASK: Evaluate the feasibility of this partial solution (scaffold + assembly strategy or complete molecule) for GBM drug design.
+    
+    Consider:
+    1. BBB penetration potential (based on MW, LogP, TPSA, HBD/HBA)
+    2. Target binding feasibility (scaffold compatibility with target binding site)
+    3. Synthetic accessibility
+    4. Safety profile (toxicity risks)
+    5. Clinical translation potential
+    
+    OUTPUT FORMAT (CRITICAL - output ONLY a single word, no explanation):
+    - "sure" if the solution is highly promising and meets all key criteria
+    - "likely" if the solution is promising but has some uncertainties
+    - "impossible" if the solution violates critical constraints or is infeasible
+    
+    Your evaluation (single word only):

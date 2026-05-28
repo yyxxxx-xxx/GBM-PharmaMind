@@ -1,0 +1,98 @@
+### model
+model_name_or_path: models/Qwen2-7B-Instruct
+new_special_tokens: <design_start>,<design_end>,<design_body>,<molecule>,<retro_start>,<retro_end>,<retro_body>,<rollback_start>,<rollback_end>
+graph_decoder_path: saves/graph_decoder
+graph_encoder_path: saves/graph_encoder
+graph_predictor_path: saves/graph_predictor
+adapter_name_or_path: saves/Llamole-Qwen2-7B-Instruct-Adapter-gbm-with-graph-models
+graph_lm_connector_path: saves/Llamole-Qwen2-7B-Instruct-Adapter/connector
+
+### GBM-specific configurations
+gbm_targets_path: gbm_project/data/gbm_targets/gbm_targets.json
+gbm_clinical_path: gbm_project/data/gbm_clinical/gbm_clinical_data.json
+gbm_molecules_path: gbm_project/data/gbm_molecules/gbm_molecules.json
+gbm_prompt_templates_path: gbm_project/configs/gbm_prompts.yaml
+
+### generation
+max_length: 1024
+max_new_tokens: 256
+temperature: 0.7
+top_p: 0.9
+do_sample: true
+num_return_sequences: 5
+
+### GBM generation parameters
+gbm_generation_mode: true
+use_gbm_domain_knowledge: true
+use_cot_reasoning: true
+target_selection_strategy: diversity  # options: diversity, clinical_priority, novel_targets
+molecular_constraints:
+  molecular_weight_max: 600
+  molecular_weight_min: 300
+  logp_max: 4.0
+  logp_min: 1.0
+  tpsa_max: 120
+  tpsa_min: 60
+  hbd_max: 5
+  hbd_min: 1
+  hba_max: 10
+  hba_min: 3
+  rotatable_bonds_max: 8
+  bbb_permeability_threshold: -1.0
+
+### GBM targets configuration
+gbm_target_weights:
+  EGFR: 0.25
+  VEGF_VEGFR: 0.20
+  IDH1_IDH2: 0.15
+  MGMT: 0.15
+  GBM_Stem_Cells: 0.10
+  PD1_PDL1: 0.08
+  PI3K_AKT_mTOR: 0.05
+  p53_MDM2: 0.02
+
+### evaluation settings
+evaluate_gbm_properties: true
+gbm_evaluation_metrics:
+  - bbb_permeability
+  - gbm_cell_activity
+  - normal_cell_toxicity
+  - synthetic_accessibility
+  - clinical_similarity
+  - target_selectivity
+
+### method
+finetuning_type: lora
+do_train: false
+flash_attn: disabled
+learned_query_size: 8
+
+### dataset
+dataset: gbm_custom
+template: qwen
+cutoff_len: 512
+overwrite_cache: true
+preprocessing_num_workers: 16
+output_dir: gbm_project/experiments/outputs
+save_strategy: steps
+save_steps: 500
+
+### eval
+per_device_eval_batch_size: 4
+evaluation_strategy: steps
+eval_steps: 500
+report_to: 'none'
+bf16: true
+pure_bf16: true
+
+### logging
+logging_dir: gbm_project/logs
+logging_strategy: steps
+logging_steps: 100
+
+### GBM output settings
+num_candidates_per_target: 20
+filter_candidates: true
+ranking_method: composite_score  # options: composite_score, clinical_relevance, novelty
+save_intermediate_results: true
+intermediate_save_path: gbm_project/experiments/intermediate

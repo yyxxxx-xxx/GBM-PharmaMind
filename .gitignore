@@ -1,0 +1,46 @@
+# ============================================================================
+# GBM-PharmaMind .gitignore
+# ============================================================================
+
+# ------------------
+# 大模型文件（禁止上传）
+# ------------------
+# Qwen2-7B-Instruct 基座模型（需从 Hugging Face 自行下载）
+Qwen2-7B-Instruct/
+
+# 图模型decoder / encoder / predictor
+saves/graph_decoder/
+saves/graph_encoder/
+saves/graph_predictor/
+
+# Llamole 分子生成适配器
+saves/Llamole-Qwen2-7B-Instruct-Adapter/
+
+# GBM LoRA 微调适配器
+saves/Llamole-Qwen2-7B-Instruct-Adapter-gbm-with-graph-models/
+
+# ------------------
+# 临时文件
+# ------------------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ------------------
+# 实验输出结果（可选，酌情上传）
+# ------------------
+# experiments/*.json
+# experiments/*.csv
+# experiments/*.log
+# experiments/outputs/
+
+# ------------------
+# macOS 临时文件
+# ------------------
+.DS_Store
+.AppleDouble
+.LSOverride

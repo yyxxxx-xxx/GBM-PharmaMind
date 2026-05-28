@@ -1,0 +1,7332 @@
+{
+  "target_name": "PI3K_AKT_mTOR",
+  "pdb_id": "XXXX",
+  "metadata": {
+    "entity_id": "1",
+    "resolution": null,
+    "experimental_method": "X-RAY DIFFRACTION",
+    "title": "",
+    "deposition_date": "",
+    "gene_name": null,
+    "organism": null,
+    "mutation_info": null
+  },
+  "sequence": {
+    "sequence": "MSEESQAFQRQLTALIGYDVTDVSNVHDDELEFTRRGLVTPRMAEVASRDPKLYAMHPWVTSKPLPEYLWKKIANNCIFIVIHRSTTSQTIKVSPDDTPGAILQSFFTKMAKKKSLMDIPESQSEQDFVLRVCGRDEYLVGETPIKNFQWVRHCLKNGEEIHVVLDTPPDPALDEVRKEEWPLVDDCTGVTGYHEQLTIHGKDHESVFTVSLWDCDRKFRVKIRGIDIPVLPRNTDLTVFVEANIQHGQQVLCQRRTSPKPFTEEVLWNVWLEFSIKIKDLPKGALLNLQIYCGKAPALSSKASAESPSSESKGKVQLLYYVNLLLIDHRFLLRRGEYVLHMWQISGKGEDQGSFNADKLTSATNPDKENSMSISILLDNYCHPIALPKHQPTPDPEGDRVRAEMPNQLRKQLEAIIATDPLNPLTAEDKELLWHFRYESLKHPKAYPKLFSSVKWGQQEIVAKTYQLLARREVWDQSALDVGLTMQLLDCNFSDENVRAIAVQKLESLEDDDVLHYLLQLVQAVKFEPYHDSALARFLLKRGLRNKRIGHFLFWFLRSEIAQSRHYQQRFAVILEAYLRGCGTAMLHDFTQQVQVIEMLQKVTLDIKSLSAEKYDVSSQVISQLKQKLENLQNSQLPESFRVPYDPGLKAGALAIEKCKVMASKKKPLWLEFKCADPTALSNETIGIIFKHGDDLRQDMLILQILRIMESIWETESLDLCLLPYGCISTGDKIGMIEIVKDATTIAKIQQSTVGNTGAFKDEVLNHWLKEKSPTEEKFQAAVERFVYSCAGYCVATFVLGIGDRHNDNIMITETGNLFHIDFGHILGNYKSFLGINKERVPFVLTPDFLFVMGTSGKKTSPHFQKFQDICVKAYLALRHHTNLLIILFSMMLMTGMPQLTSKEDIEYIRDALTVGKNEEDAKKYFLDQIEVCRDKGWTVQFNWFLHLVLGIKQGEKHSA",
+    "length": 960,
+    "chains": [
+      "A"
+    ]
+  },
+  "structure": {
+    "atoms_count": 6673,
+    "residues_count": 960,
+    "secondary_structures_count": 0
+  },
+  "binding_sites": [
+    {
+      "site_id": "site_atp_binding",
+      "site_name": "ATP-binding pocket (kinase domain)",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 8.0,
+      "volume": 268.0,
+      "properties": {
+        "type": "ATP binding",
+        "kinase_specific": true
+      },
+      "residue_count": 30,
+      "atoms_count": 0,
+      "key_residues": [
+        "TRP855",
+        "ILE854",
+        "GLU856",
+        "SER853",
+        "THR857",
+        "GLU852",
+        "GLU858",
+        "MET851",
+        "SER859",
+        "ILE850"
+      ]
+    },
+    {
+      "site_id": "site_allosteric_1",
+      "site_name": "Predicted allosteric site 1",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 7.0,
+      "volume": 343.0,
+      "properties": {
+        "type": "allosteric",
+        "predicted": true
+      },
+      "residue_count": 20,
+      "atoms_count": 0,
+      "key_residues": [
+        "GLU145",
+        "GLU146",
+        "ARG152",
+        "ASP161",
+        "ASP164",
+        "ASP170",
+        "ASP171",
+        "GLU172",
+        "GLU174",
+        "ARG177"
+      ]
+    }
+  ],
+  "ligands": [],
+  "metal_ions": [],
+  "secondary_structures": [],
+  "detailed_residues": [
+    {
+      "seq_num": 1,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 1
+    },
+    {
+      "seq_num": 2,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 144
+    },
+    {
+      "seq_num": 3,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 145
+    },
+    {
+      "seq_num": 4,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 146
+    },
+    {
+      "seq_num": 5,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 147
+    },
+    {
+      "seq_num": 6,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 148
+    },
+    {
+      "seq_num": 7,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 149
+    },
+    {
+      "seq_num": 8,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 150
+    },
+    {
+      "seq_num": 9,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 151
+    },
+    {
+      "seq_num": 10,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 152
+    },
+    {
+      "seq_num": 11,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 153
+    },
+    {
+      "seq_num": 12,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 154
+    },
+    {
+      "seq_num": 13,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 155
+    },
+    {
+      "seq_num": 14,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 156
+    },
+    {
+      "seq_num": 15,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 157
+    },
+    {
+      "seq_num": 16,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 158
+    },
+    {
+      "seq_num": 17,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 159
+    },
+    {
+      "seq_num": 18,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 160
+    },
+    {
+      "seq_num": 19,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 161
+    },
+    {
+      "seq_num": 20,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 162
+    },
+    {
+      "seq_num": 21,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 163
+    },
+    {
+      "seq_num": 22,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 164
+    },
+    {
+      "seq_num": 23,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 165
+    },
+    {
+      "seq_num": 24,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 166
+    },
+    {
+      "seq_num": 25,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 167
+    },
+    {
+      "seq_num": 26,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 168
+    },
+    {
+      "seq_num": 27,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 169
+    },
+    {
+      "seq_num": 28,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 170
+    },
+    {
+      "seq_num": 29,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 171
+    },
+    {
+      "seq_num": 30,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 172
+    },
+    {
+      "seq_num": 31,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 173
+    },
+    {
+      "seq_num": 32,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 174
+    },
+    {
+      "seq_num": 33,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 175
+    },
+    {
+      "seq_num": 34,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 176
+    },
+    {
+      "seq_num": 35,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 177
+    },
+    {
+      "seq_num": 36,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 178
+    },
+    {
+      "seq_num": 37,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 179
+    },
+    {
+      "seq_num": 38,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 180
+    },
+    {
+      "seq_num": 39,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 181
+    },
+    {
+      "seq_num": 40,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 182
+    },
+    {
+      "seq_num": 41,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 183
+    },
+    {
+      "seq_num": 42,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 184
+    },
+    {
+      "seq_num": 43,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 185
+    },
+    {
+      "seq_num": 44,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 186
+    },
+    {
+      "seq_num": 45,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 187
+    },
+    {
+      "seq_num": 46,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 188
+    },
+    {
+      "seq_num": 47,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 189
+    },
+    {
+      "seq_num": 48,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 190
+    },
+    {
+      "seq_num": 49,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 191
+    },
+    {
+      "seq_num": 50,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 192
+    },
+    {
+      "seq_num": 51,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 193
+    },
+    {
+      "seq_num": 52,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 194
+    },
+    {
+      "seq_num": 53,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 195
+    },
+    {
+      "seq_num": 54,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 196
+    },
+    {
+      "seq_num": 55,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 197
+    },
+    {
+      "seq_num": 56,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 198
+    },
+    {
+      "seq_num": 57,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 199
+    },
+    {
+      "seq_num": 58,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 200
+    },
+    {
+      "seq_num": 59,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 201
+    },
+    {
+      "seq_num": 60,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 202
+    },
+    {
+      "seq_num": 61,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 203
+    },
+    {
+      "seq_num": 62,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 204
+    },
+    {
+      "seq_num": 63,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 205
+    },
+    {
+      "seq_num": 64,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 206
+    },
+    {
+      "seq_num": 65,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 207
+    },
+    {
+      "seq_num": 66,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 208
+    },
+    {
+      "seq_num": 67,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 209
+    },
+    {
+      "seq_num": 68,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 210
+    },
+    {
+      "seq_num": 69,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 211
+    },
+    {
+      "seq_num": 70,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 212
+    },
+    {
+      "seq_num": 71,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 213
+    },
+    {
+      "seq_num": 72,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 214
+    },
+    {
+      "seq_num": 73,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 215
+    },
+    {
+      "seq_num": 74,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 216
+    },
+    {
+      "seq_num": 75,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 217
+    },
+    {
+      "seq_num": 76,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 218
+    },
+    {
+      "seq_num": 77,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 219
+    },
+    {
+      "seq_num": 78,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 220
+    },
+    {
+      "seq_num": 79,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 221
+    },
+    {
+      "seq_num": 80,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 222
+    },
+    {
+      "seq_num": 81,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 223
+    },
+    {
+      "seq_num": 82,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 224
+    },
+    {
+      "seq_num": 83,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 225
+    },
+    {
+      "seq_num": 84,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 226
+    },
+    {
+      "seq_num": 85,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 227
+    },
+    {
+      "seq_num": 86,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 228
+    },
+    {
+      "seq_num": 87,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 229
+    },
+    {
+      "seq_num": 88,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 230
+    },
+    {
+      "seq_num": 89,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 231
+    },
+    {
+      "seq_num": 90,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 232
+    },
+    {
+      "seq_num": 91,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 233
+    },
+    {
+      "seq_num": 92,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 234
+    },
+    {
+      "seq_num": 93,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 235
+    },
+    {
+      "seq_num": 94,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 236
+    },
+    {
+      "seq_num": 95,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 237
+    },
+    {
+      "seq_num": 96,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 238
+    },
+    {
+      "seq_num": 97,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 239
+    },
+    {
+      "seq_num": 98,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 240
+    },
+    {
+      "seq_num": 99,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 241
+    },
+    {
+      "seq_num": 100,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 242
+    },
+    {
+      "seq_num": 101,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 243
+    },
+    {
+      "seq_num": 102,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 244
+    },
+    {
+      "seq_num": 103,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 245
+    },
+    {
+      "seq_num": 104,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 246
+    },
+    {
+      "seq_num": 105,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 247
+    },
+    {
+      "seq_num": 106,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 248
+    },
+    {
+      "seq_num": 107,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 249
+    },
+    {
+      "seq_num": 108,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 250
+    },
+    {
+      "seq_num": 109,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 251
+    },
+    {
+      "seq_num": 110,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 252
+    },
+    {
+      "seq_num": 111,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 111
+    },
+    {
+      "seq_num": 112,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 112
+    },
+    {
+      "seq_num": 113,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 113
+    },
+    {
+      "seq_num": 114,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 114
+    },
+    {
+      "seq_num": 115,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 115
+    },
+    {
+      "seq_num": 116,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 116
+    },
+    {
+      "seq_num": 117,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 117
+    },
+    {
+      "seq_num": 118,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 118
+    },
+    {
+      "seq_num": 119,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 119
+    },
+    {
+      "seq_num": 120,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 120
+    },
+    {
+      "seq_num": 121,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 121
+    },
+    {
+      "seq_num": 122,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 122
+    },
+    {
+      "seq_num": 123,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 123
+    },
+    {
+      "seq_num": 124,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 124
+    },
+    {
+      "seq_num": 125,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 125
+    },
+    {
+      "seq_num": 126,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 268
+    },
+    {
+      "seq_num": 127,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 269
+    },
+    {
+      "seq_num": 128,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 270
+    },
+    {
+      "seq_num": 129,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 271
+    },
+    {
+      "seq_num": 130,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 272
+    },
+    {
+      "seq_num": 131,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 273
+    },
+    {
+      "seq_num": 132,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 274
+    },
+    {
+      "seq_num": 133,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 275
+    },
+    {
+      "seq_num": 134,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 276
+    },
+    {
+      "seq_num": 135,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 277
+    },
+    {
+      "seq_num": 136,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 278
+    },
+    {
+      "seq_num": 137,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 279
+    },
+    {
+      "seq_num": 138,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 280
+    },
+    {
+      "seq_num": 139,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 281
+    },
+    {
+      "seq_num": 140,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 282
+    },
+    {
+      "seq_num": 141,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 283
+    },
+    {
+      "seq_num": 142,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 284
+    },
+    {
+      "seq_num": 143,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 285
+    },
+    {
+      "seq_num": 144,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 286
+    },
+    {
+      "seq_num": 145,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 287
+    },
+    {
+      "seq_num": 146,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 288
+    },
+    {
+      "seq_num": 147,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 289
+    },
+    {
+      "seq_num": 148,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 290
+    },
+    {
+      "seq_num": 149,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 291
+    },
+    {
+      "seq_num": 150,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 292
+    },
+    {
+      "seq_num": 151,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 293
+    },
+    {
+      "seq_num": 152,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 294
+    },
+    {
+      "seq_num": 153,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 295
+    },
+    {
+      "seq_num": 154,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 296
+    },
+    {
+      "seq_num": 155,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 297
+    },
+    {
+      "seq_num": 156,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 298
+    },
+    {
+      "seq_num": 157,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 299
+    },
+    {
+      "seq_num": 158,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 300
+    },
+    {
+      "seq_num": 159,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 301
+    },
+    {
+      "seq_num": 160,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 302
+    },
+    {
+      "seq_num": 161,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 303
+    },
+    {
+      "seq_num": 162,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 304
+    },
+    {
+      "seq_num": 163,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 305
+    },
+    {
+      "seq_num": 164,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 306
+    },
+    {
+      "seq_num": 165,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 307
+    },
+    {
+      "seq_num": 166,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 308
+    },
+    {
+      "seq_num": 167,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 309
+    },
+    {
+      "seq_num": 168,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 310
+    },
+    {
+      "seq_num": 169,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 311
+    },
+    {
+      "seq_num": 170,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 312
+    },
+    {
+      "seq_num": 171,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 313
+    },
+    {
+      "seq_num": 172,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 314
+    },
+    {
+      "seq_num": 173,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 315
+    },
+    {
+      "seq_num": 174,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 316
+    },
+    {
+      "seq_num": 175,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 317
+    },
+    {
+      "seq_num": 176,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 318
+    },
+    {
+      "seq_num": 177,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 319
+    },
+    {
+      "seq_num": 178,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 178
+    },
+    {
+      "seq_num": 179,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 179
+    },
+    {
+      "seq_num": 180,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 180
+    },
+    {
+      "seq_num": 181,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 181
+    },
+    {
+      "seq_num": 182,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 182
+    },
+    {
+      "seq_num": 183,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 183
+    },
+    {
+      "seq_num": 184,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 184
+    },
+    {
+      "seq_num": 185,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 185
+    },
+    {
+      "seq_num": 186,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 186
+    },
+    {
+      "seq_num": 187,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 187
+    },
+    {
+      "seq_num": 188,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 188
+    },
+    {
+      "seq_num": 189,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 189
+    },
+    {
+      "seq_num": 190,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 190
+    },
+    {
+      "seq_num": 191,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 191
+    },
+    {
+      "seq_num": 192,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 192
+    },
+    {
+      "seq_num": 193,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 193
+    },
+    {
+      "seq_num": 194,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 194
+    },
+    {
+      "seq_num": 195,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 195
+    },
+    {
+      "seq_num": 196,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 196
+    },
+    {
+      "seq_num": 197,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 197
+    },
+    {
+      "seq_num": 198,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 198
+    },
+    {
+      "seq_num": 199,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 199
+    },
+    {
+      "seq_num": 200,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 200
+    },
+    {
+      "seq_num": 201,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 201
+    },
+    {
+      "seq_num": 202,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 202
+    },
+    {
+      "seq_num": 203,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 203
+    },
+    {
+      "seq_num": 204,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 204
+    },
+    {
+      "seq_num": 205,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 205
+    },
+    {
+      "seq_num": 206,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 206
+    },
+    {
+      "seq_num": 207,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 207
+    },
+    {
+      "seq_num": 208,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 208
+    },
+    {
+      "seq_num": 209,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 209
+    },
+    {
+      "seq_num": 210,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 210
+    },
+    {
+      "seq_num": 211,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 211
+    },
+    {
+      "seq_num": 212,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 212
+    },
+    {
+      "seq_num": 213,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 213
+    },
+    {
+      "seq_num": 214,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 214
+    },
+    {
+      "seq_num": 215,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 357
+    },
+    {
+      "seq_num": 216,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 358
+    },
+    {
+      "seq_num": 217,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 359
+    },
+    {
+      "seq_num": 218,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 360
+    },
+    {
+      "seq_num": 219,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 361
+    },
+    {
+      "seq_num": 220,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 362
+    },
+    {
+      "seq_num": 221,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 363
+    },
+    {
+      "seq_num": 222,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 364
+    },
+    {
+      "seq_num": 223,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 365
+    },
+    {
+      "seq_num": 224,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 366
+    },
+    {
+      "seq_num": 225,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 367
+    },
+    {
+      "seq_num": 226,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 368
+    },
+    {
+      "seq_num": 227,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 369
+    },
+    {
+      "seq_num": 228,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 370
+    },
+    {
+      "seq_num": 229,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 371
+    },
+    {
+      "seq_num": 230,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 372
+    },
+    {
+      "seq_num": 231,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 373
+    },
+    {
+      "seq_num": 232,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 232
+    },
+    {
+      "seq_num": 233,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 233
+    },
+    {
+      "seq_num": 234,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 234
+    },
+    {
+      "seq_num": 235,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 235
+    },
+    {
+      "seq_num": 236,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 236
+    },
+    {
+      "seq_num": 237,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 237
+    },
+    {
+      "seq_num": 238,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 380
+    },
+    {
+      "seq_num": 239,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 381
+    },
+    {
+      "seq_num": 240,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 382
+    },
+    {
+      "seq_num": 241,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 383
+    },
+    {
+      "seq_num": 242,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 384
+    },
+    {
+      "seq_num": 243,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 385
+    },
+    {
+      "seq_num": 244,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 386
+    },
+    {
+      "seq_num": 245,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 387
+    },
+    {
+      "seq_num": 246,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 388
+    },
+    {
+      "seq_num": 247,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 389
+    },
+    {
+      "seq_num": 248,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 390
+    },
+    {
+      "seq_num": 249,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 391
+    },
+    {
+      "seq_num": 250,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 392
+    },
+    {
+      "seq_num": 251,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 393
+    },
+    {
+      "seq_num": 252,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 394
+    },
+    {
+      "seq_num": 253,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 395
+    },
+    {
+      "seq_num": 254,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 396
+    },
+    {
+      "seq_num": 255,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 397
+    },
+    {
+      "seq_num": 256,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 398
+    },
+    {
+      "seq_num": 257,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 399
+    },
+    {
+      "seq_num": 258,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 400
+    },
+    {
+      "seq_num": 259,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 401
+    },
+    {
+      "seq_num": 260,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 402
+    },
+    {
+      "seq_num": 261,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 403
+    },
+    {
+      "seq_num": 262,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 404
+    },
+    {
+      "seq_num": 263,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 405
+    },
+    {
+      "seq_num": 264,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 406
+    },
+    {
+      "seq_num": 265,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 407
+    },
+    {
+      "seq_num": 266,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 408
+    },
+    {
+      "seq_num": 267,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 409
+    },
+    {
+      "seq_num": 268,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 410
+    },
+    {
+      "seq_num": 269,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 411
+    },
+    {
+      "seq_num": 270,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 412
+    },
+    {
+      "seq_num": 271,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 413
+    },
+    {
+      "seq_num": 272,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 414
+    },
+    {
+      "seq_num": 273,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 415
+    },
+    {
+      "seq_num": 274,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 416
+    },
+    {
+      "seq_num": 275,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 417
+    },
+    {
+      "seq_num": 276,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 418
+    },
+    {
+      "seq_num": 277,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 419
+    },
+    {
+      "seq_num": 278,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 420
+    },
+    {
+      "seq_num": 279,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 421
+    },
+    {
+      "seq_num": 280,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 422
+    },
+    {
+      "seq_num": 281,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 423
+    },
+    {
+      "seq_num": 282,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 424
+    },
+    {
+      "seq_num": 283,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 425
+    },
+    {
+      "seq_num": 284,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 426
+    },
+    {
+      "seq_num": 285,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 427
+    },
+    {
+      "seq_num": 286,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 428
+    },
+    {
+      "seq_num": 287,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 429
+    },
+    {
+      "seq_num": 288,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 430
+    },
+    {
+      "seq_num": 289,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 431
+    },
+    {
+      "seq_num": 290,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 432
+    },
+    {
+      "seq_num": 291,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 433
+    },
+    {
+      "seq_num": 292,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 434
+    },
+    {
+      "seq_num": 293,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 435
+    },
+    {
+      "seq_num": 294,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 294
+    },
+    {
+      "seq_num": 295,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 295
+    },
+    {
+      "seq_num": 296,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 296
+    },
+    {
+      "seq_num": 297,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 297
+    },
+    {
+      "seq_num": 298,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 298
+    },
+    {
+      "seq_num": 299,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 299
+    },
+    {
+      "seq_num": 300,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 300
+    },
+    {
+      "seq_num": 301,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 301
+    },
+    {
+      "seq_num": 302,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 302
+    },
+    {
+      "seq_num": 303,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 303
+    },
+    {
+      "seq_num": 304,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 304
+    },
+    {
+      "seq_num": 305,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 305
+    },
+    {
+      "seq_num": 306,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 306
+    },
+    {
+      "seq_num": 307,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 307
+    },
+    {
+      "seq_num": 308,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 308
+    },
+    {
+      "seq_num": 309,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 309
+    },
+    {
+      "seq_num": 310,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 310
+    },
+    {
+      "seq_num": 311,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 311
+    },
+    {
+      "seq_num": 312,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 312
+    },
+    {
+      "seq_num": 313,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 313
+    },
+    {
+      "seq_num": 314,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 314
+    },
+    {
+      "seq_num": 315,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 315
+    },
+    {
+      "seq_num": 316,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 316
+    },
+    {
+      "seq_num": 317,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 317
+    },
+    {
+      "seq_num": 318,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 318
+    },
+    {
+      "seq_num": 319,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 461
+    },
+    {
+      "seq_num": 320,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 462
+    },
+    {
+      "seq_num": 321,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 463
+    },
+    {
+      "seq_num": 322,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 464
+    },
+    {
+      "seq_num": 323,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 465
+    },
+    {
+      "seq_num": 324,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 466
+    },
+    {
+      "seq_num": 325,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 467
+    },
+    {
+      "seq_num": 326,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 468
+    },
+    {
+      "seq_num": 327,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 469
+    },
+    {
+      "seq_num": 328,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 470
+    },
+    {
+      "seq_num": 329,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 471
+    },
+    {
+      "seq_num": 330,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 472
+    },
+    {
+      "seq_num": 331,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 473
+    },
+    {
+      "seq_num": 332,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 474
+    },
+    {
+      "seq_num": 333,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 475
+    },
+    {
+      "seq_num": 334,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 476
+    },
+    {
+      "seq_num": 335,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 477
+    },
+    {
+      "seq_num": 336,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 478
+    },
+    {
+      "seq_num": 337,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 479
+    },
+    {
+      "seq_num": 338,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 480
+    },
+    {
+      "seq_num": 339,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 481
+    },
+    {
+      "seq_num": 340,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 482
+    },
+    {
+      "seq_num": 341,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 483
+    },
+    {
+      "seq_num": 342,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 484
+    },
+    {
+      "seq_num": 343,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 485
+    },
+    {
+      "seq_num": 344,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 486
+    },
+    {
+      "seq_num": 345,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 487
+    },
+    {
+      "seq_num": 346,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 488
+    },
+    {
+      "seq_num": 347,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 489
+    },
+    {
+      "seq_num": 348,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 348
+    },
+    {
+      "seq_num": 349,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 349
+    },
+    {
+      "seq_num": 350,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 350
+    },
+    {
+      "seq_num": 351,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 351
+    },
+    {
+      "seq_num": 352,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 352
+    },
+    {
+      "seq_num": 353,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 353
+    },
+    {
+      "seq_num": 354,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 354
+    },
+    {
+      "seq_num": 355,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 497
+    },
+    {
+      "seq_num": 356,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 498
+    },
+    {
+      "seq_num": 357,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 499
+    },
+    {
+      "seq_num": 358,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 500
+    },
+    {
+      "seq_num": 359,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 501
+    },
+    {
+      "seq_num": 360,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 502
+    },
+    {
+      "seq_num": 361,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 503
+    },
+    {
+      "seq_num": 362,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 504
+    },
+    {
+      "seq_num": 363,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 505
+    },
+    {
+      "seq_num": 364,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 506
+    },
+    {
+      "seq_num": 365,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 507
+    },
+    {
+      "seq_num": 366,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 508
+    },
+    {
+      "seq_num": 367,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 509
+    },
+    {
+      "seq_num": 368,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 510
+    },
+    {
+      "seq_num": 369,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 511
+    },
+    {
+      "seq_num": 370,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 512
+    },
+    {
+      "seq_num": 371,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 513
+    },
+    {
+      "seq_num": 372,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 514
+    },
+    {
+      "seq_num": 373,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 515
+    },
+    {
+      "seq_num": 374,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 516
+    },
+    {
+      "seq_num": 375,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 517
+    },
+    {
+      "seq_num": 376,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 518
+    },
+    {
+      "seq_num": 377,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 519
+    },
+    {
+      "seq_num": 378,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 520
+    },
+    {
+      "seq_num": 379,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 521
+    },
+    {
+      "seq_num": 380,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 522
+    },
+    {
+      "seq_num": 381,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 381
+    },
+    {
+      "seq_num": 382,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 382
+    },
+    {
+      "seq_num": 383,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 525
+    },
+    {
+      "seq_num": 384,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 526
+    },
+    {
+      "seq_num": 385,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 527
+    },
+    {
+      "seq_num": 386,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 528
+    },
+    {
+      "seq_num": 387,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 387
+    },
+    {
+      "seq_num": 388,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 388
+    },
+    {
+      "seq_num": 389,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 389
+    },
+    {
+      "seq_num": 390,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 390
+    },
+    {
+      "seq_num": 391,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 391
+    },
+    {
+      "seq_num": 392,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 392
+    },
+    {
+      "seq_num": 393,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 393
+    },
+    {
+      "seq_num": 394,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 394
+    },
+    {
+      "seq_num": 395,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 395
+    },
+    {
+      "seq_num": 396,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 396
+    },
+    {
+      "seq_num": 397,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 397
+    },
+    {
+      "seq_num": 398,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 398
+    },
+    {
+      "seq_num": 399,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 399
+    },
+    {
+      "seq_num": 400,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 400
+    },
+    {
+      "seq_num": 401,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 401
+    },
+    {
+      "seq_num": 402,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 402
+    },
+    {
+      "seq_num": 403,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 545
+    },
+    {
+      "seq_num": 404,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 546
+    },
+    {
+      "seq_num": 405,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 547
+    },
+    {
+      "seq_num": 406,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 548
+    },
+    {
+      "seq_num": 407,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 549
+    },
+    {
+      "seq_num": 408,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 550
+    },
+    {
+      "seq_num": 409,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 551
+    },
+    {
+      "seq_num": 410,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 552
+    },
+    {
+      "seq_num": 411,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 553
+    },
+    {
+      "seq_num": 412,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 554
+    },
+    {
+      "seq_num": 413,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 555
+    },
+    {
+      "seq_num": 414,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 556
+    },
+    {
+      "seq_num": 415,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 557
+    },
+    {
+      "seq_num": 416,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 558
+    },
+    {
+      "seq_num": 417,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 559
+    },
+    {
+      "seq_num": 418,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 560
+    },
+    {
+      "seq_num": 419,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 561
+    },
+    {
+      "seq_num": 420,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 562
+    },
+    {
+      "seq_num": 421,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 563
+    },
+    {
+      "seq_num": 422,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 564
+    },
+    {
+      "seq_num": 423,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 565
+    },
+    {
+      "seq_num": 424,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 566
+    },
+    {
+      "seq_num": 425,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 567
+    },
+    {
+      "seq_num": 426,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 568
+    },
+    {
+      "seq_num": 427,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 569
+    },
+    {
+      "seq_num": 428,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 570
+    },
+    {
+      "seq_num": 429,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 571
+    },
+    {
+      "seq_num": 430,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 572
+    },
+    {
+      "seq_num": 431,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 573
+    },
+    {
+      "seq_num": 432,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 574
+    },
+    {
+      "seq_num": 433,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 575
+    },
+    {
+      "seq_num": 434,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 576
+    },
+    {
+      "seq_num": 435,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 577
+    },
+    {
+      "seq_num": 436,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 578
+    },
+    {
+      "seq_num": 437,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 579
+    },
+    {
+      "seq_num": 438,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 580
+    },
+    {
+      "seq_num": 439,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 581
+    },
+    {
+      "seq_num": 440,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 582
+    },
+    {
+      "seq_num": 441,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 583
+    },
+    {
+      "seq_num": 442,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 584
+    },
+    {
+      "seq_num": 443,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 585
+    },
+    {
+      "seq_num": 444,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 586
+    },
+    {
+      "seq_num": 445,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 587
+    },
+    {
+      "seq_num": 446,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 588
+    },
+    {
+      "seq_num": 447,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 589
+    },
+    {
+      "seq_num": 448,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 590
+    },
+    {
+      "seq_num": 449,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 591
+    },
+    {
+      "seq_num": 450,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 592
+    },
+    {
+      "seq_num": 451,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 593
+    },
+    {
+      "seq_num": 452,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 594
+    },
+    {
+      "seq_num": 453,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 595
+    },
+    {
+      "seq_num": 454,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 596
+    },
+    {
+      "seq_num": 455,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 597
+    },
+    {
+      "seq_num": 456,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 598
+    },
+    {
+      "seq_num": 457,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 599
+    },
+    {
+      "seq_num": 458,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 600
+    },
+    {
+      "seq_num": 459,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 601
+    },
+    {
+      "seq_num": 460,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 602
+    },
+    {
+      "seq_num": 461,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 603
+    },
+    {
+      "seq_num": 462,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 604
+    },
+    {
+      "seq_num": 463,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 605
+    },
+    {
+      "seq_num": 464,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 606
+    },
+    {
+      "seq_num": 465,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 607
+    },
+    {
+      "seq_num": 466,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 608
+    },
+    {
+      "seq_num": 467,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 609
+    },
+    {
+      "seq_num": 468,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 610
+    },
+    {
+      "seq_num": 469,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 611
+    },
+    {
+      "seq_num": 470,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 612
+    },
+    {
+      "seq_num": 471,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 613
+    },
+    {
+      "seq_num": 472,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 614
+    },
+    {
+      "seq_num": 473,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 615
+    },
+    {
+      "seq_num": 474,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 616
+    },
+    {
+      "seq_num": 475,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 617
+    },
+    {
+      "seq_num": 476,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 618
+    },
+    {
+      "seq_num": 477,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 619
+    },
+    {
+      "seq_num": 478,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 620
+    },
+    {
+      "seq_num": 479,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 621
+    },
+    {
+      "seq_num": 480,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 622
+    },
+    {
+      "seq_num": 481,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 623
+    },
+    {
+      "seq_num": 482,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 624
+    },
+    {
+      "seq_num": 483,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 625
+    },
+    {
+      "seq_num": 484,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 626
+    },
+    {
+      "seq_num": 485,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 627
+    },
+    {
+      "seq_num": 486,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 628
+    },
+    {
+      "seq_num": 487,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 629
+    },
+    {
+      "seq_num": 488,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 630
+    },
+    {
+      "seq_num": 489,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 631
+    },
+    {
+      "seq_num": 490,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 632
+    },
+    {
+      "seq_num": 491,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 633
+    },
+    {
+      "seq_num": 492,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 634
+    },
+    {
+      "seq_num": 493,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 635
+    },
+    {
+      "seq_num": 494,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 636
+    },
+    {
+      "seq_num": 495,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 637
+    },
+    {
+      "seq_num": 496,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 638
+    },
+    {
+      "seq_num": 497,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 639
+    },
+    {
+      "seq_num": 498,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 640
+    },
+    {
+      "seq_num": 499,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 641
+    },
+    {
+      "seq_num": 500,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 642
+    },
+    {
+      "seq_num": 501,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 643
+    },
+    {
+      "seq_num": 502,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 644
+    },
+    {
+      "seq_num": 503,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 645
+    },
+    {
+      "seq_num": 504,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 646
+    },
+    {
+      "seq_num": 505,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 647
+    },
+    {
+      "seq_num": 506,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 648
+    },
+    {
+      "seq_num": 507,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 649
+    },
+    {
+      "seq_num": 508,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 650
+    },
+    {
+      "seq_num": 509,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 651
+    },
+    {
+      "seq_num": 510,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 652
+    },
+    {
+      "seq_num": 511,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 653
+    },
+    {
+      "seq_num": 512,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 654
+    },
+    {
+      "seq_num": 513,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 655
+    },
+    {
+      "seq_num": 514,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 656
+    },
+    {
+      "seq_num": 515,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 657
+    },
+    {
+      "seq_num": 516,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 658
+    },
+    {
+      "seq_num": 517,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 659
+    },
+    {
+      "seq_num": 518,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 660
+    },
+    {
+      "seq_num": 519,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 661
+    },
+    {
+      "seq_num": 520,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 662
+    },
+    {
+      "seq_num": 521,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 663
+    },
+    {
+      "seq_num": 522,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 664
+    },
+    {
+      "seq_num": 523,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 665
+    },
+    {
+      "seq_num": 524,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 666
+    },
+    {
+      "seq_num": 525,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 667
+    },
+    {
+      "seq_num": 526,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 668
+    },
+    {
+      "seq_num": 527,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 669
+    },
+    {
+      "seq_num": 528,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 670
+    },
+    {
+      "seq_num": 529,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 671
+    },
+    {
+      "seq_num": 530,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 672
+    },
+    {
+      "seq_num": 531,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 673
+    },
+    {
+      "seq_num": 532,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 674
+    },
+    {
+      "seq_num": 533,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 675
+    },
+    {
+      "seq_num": 534,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 676
+    },
+    {
+      "seq_num": 535,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 677
+    },
+    {
+      "seq_num": 536,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 678
+    },
+    {
+      "seq_num": 537,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 679
+    },
+    {
+      "seq_num": 538,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 680
+    },
+    {
+      "seq_num": 539,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 681
+    },
+    {
+      "seq_num": 540,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 682
+    },
+    {
+      "seq_num": 541,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 683
+    },
+    {
+      "seq_num": 542,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 684
+    },
+    {
+      "seq_num": 543,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 685
+    },
+    {
+      "seq_num": 544,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 686
+    },
+    {
+      "seq_num": 545,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 687
+    },
+    {
+      "seq_num": 546,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 688
+    },
+    {
+      "seq_num": 547,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 689
+    },
+    {
+      "seq_num": 548,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 690
+    },
+    {
+      "seq_num": 549,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 691
+    },
+    {
+      "seq_num": 550,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 692
+    },
+    {
+      "seq_num": 551,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 693
+    },
+    {
+      "seq_num": 552,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 694
+    },
+    {
+      "seq_num": 553,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 695
+    },
+    {
+      "seq_num": 554,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 696
+    },
+    {
+      "seq_num": 555,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 697
+    },
+    {
+      "seq_num": 556,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 698
+    },
+    {
+      "seq_num": 557,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 699
+    },
+    {
+      "seq_num": 558,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 700
+    },
+    {
+      "seq_num": 559,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 701
+    },
+    {
+      "seq_num": 560,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 702
+    },
+    {
+      "seq_num": 561,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 703
+    },
+    {
+      "seq_num": 562,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 704
+    },
+    {
+      "seq_num": 563,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 705
+    },
+    {
+      "seq_num": 564,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 706
+    },
+    {
+      "seq_num": 565,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 707
+    },
+    {
+      "seq_num": 566,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 708
+    },
+    {
+      "seq_num": 567,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 709
+    },
+    {
+      "seq_num": 568,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 710
+    },
+    {
+      "seq_num": 569,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 711
+    },
+    {
+      "seq_num": 570,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 712
+    },
+    {
+      "seq_num": 571,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 713
+    },
+    {
+      "seq_num": 572,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 714
+    },
+    {
+      "seq_num": 573,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 715
+    },
+    {
+      "seq_num": 574,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 716
+    },
+    {
+      "seq_num": 575,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 717
+    },
+    {
+      "seq_num": 576,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 718
+    },
+    {
+      "seq_num": 577,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 719
+    },
+    {
+      "seq_num": 578,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 720
+    },
+    {
+      "seq_num": 579,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 721
+    },
+    {
+      "seq_num": 580,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 722
+    },
+    {
+      "seq_num": 581,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 723
+    },
+    {
+      "seq_num": 582,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 724
+    },
+    {
+      "seq_num": 583,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 725
+    },
+    {
+      "seq_num": 584,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 726
+    },
+    {
+      "seq_num": 585,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 727
+    },
+    {
+      "seq_num": 586,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 728
+    },
+    {
+      "seq_num": 587,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 729
+    },
+    {
+      "seq_num": 588,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 730
+    },
+    {
+      "seq_num": 589,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 731
+    },
+    {
+      "seq_num": 590,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 732
+    },
+    {
+      "seq_num": 591,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 733
+    },
+    {
+      "seq_num": 592,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 734
+    },
+    {
+      "seq_num": 593,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 735
+    },
+    {
+      "seq_num": 594,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 736
+    },
+    {
+      "seq_num": 595,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 737
+    },
+    {
+      "seq_num": 596,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 738
+    },
+    {
+      "seq_num": 597,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 739
+    },
+    {
+      "seq_num": 598,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 740
+    },
+    {
+      "seq_num": 599,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 741
+    },
+    {
+      "seq_num": 600,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 742
+    },
+    {
+      "seq_num": 601,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 743
+    },
+    {
+      "seq_num": 602,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 744
+    },
+    {
+      "seq_num": 603,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 745
+    },
+    {
+      "seq_num": 604,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 746
+    },
+    {
+      "seq_num": 605,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 747
+    },
+    {
+      "seq_num": 606,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 748
+    },
+    {
+      "seq_num": 607,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 749
+    },
+    {
+      "seq_num": 608,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 750
+    },
+    {
+      "seq_num": 609,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 751
+    },
+    {
+      "seq_num": 610,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 752
+    },
+    {
+      "seq_num": 611,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 753
+    },
+    {
+      "seq_num": 612,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 754
+    },
+    {
+      "seq_num": 613,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 613
+    },
+    {
+      "seq_num": 614,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 614
+    },
+    {
+      "seq_num": 615,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 615
+    },
+    {
+      "seq_num": 616,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 616
+    },
+    {
+      "seq_num": 617,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 617
+    },
+    {
+      "seq_num": 618,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 760
+    },
+    {
+      "seq_num": 619,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 761
+    },
+    {
+      "seq_num": 620,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 762
+    },
+    {
+      "seq_num": 621,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 763
+    },
+    {
+      "seq_num": 622,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 764
+    },
+    {
+      "seq_num": 623,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 765
+    },
+    {
+      "seq_num": 624,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 766
+    },
+    {
+      "seq_num": 625,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 767
+    },
+    {
+      "seq_num": 626,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 768
+    },
+    {
+      "seq_num": 627,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 769
+    },
+    {
+      "seq_num": 628,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 770
+    },
+    {
+      "seq_num": 629,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 771
+    },
+    {
+      "seq_num": 630,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 772
+    },
+    {
+      "seq_num": 631,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 773
+    },
+    {
+      "seq_num": 632,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 774
+    },
+    {
+      "seq_num": 633,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 775
+    },
+    {
+      "seq_num": 634,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 634
+    },
+    {
+      "seq_num": 635,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 635
+    },
+    {
+      "seq_num": 636,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 636
+    },
+    {
+      "seq_num": 637,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 779
+    },
+    {
+      "seq_num": 638,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 780
+    },
+    {
+      "seq_num": 639,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 781
+    },
+    {
+      "seq_num": 640,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 782
+    },
+    {
+      "seq_num": 641,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 783
+    },
+    {
+      "seq_num": 642,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 784
+    },
+    {
+      "seq_num": 643,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 785
+    },
+    {
+      "seq_num": 644,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 786
+    },
+    {
+      "seq_num": 645,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 787
+    },
+    {
+      "seq_num": 646,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 788
+    },
+    {
+      "seq_num": 647,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 789
+    },
+    {
+      "seq_num": 648,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 790
+    },
+    {
+      "seq_num": 649,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 791
+    },
+    {
+      "seq_num": 650,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 792
+    },
+    {
+      "seq_num": 651,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 793
+    },
+    {
+      "seq_num": 652,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 794
+    },
+    {
+      "seq_num": 653,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 795
+    },
+    {
+      "seq_num": 654,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 796
+    },
+    {
+      "seq_num": 655,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 797
+    },
+    {
+      "seq_num": 656,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 798
+    },
+    {
+      "seq_num": 657,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 799
+    },
+    {
+      "seq_num": 658,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 800
+    },
+    {
+      "seq_num": 659,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 801
+    },
+    {
+      "seq_num": 660,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 802
+    },
+    {
+      "seq_num": 661,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 803
+    },
+    {
+      "seq_num": 662,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 804
+    },
+    {
+      "seq_num": 663,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 805
+    },
+    {
+      "seq_num": 664,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 806
+    },
+    {
+      "seq_num": 665,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 807
+    },
+    {
+      "seq_num": 666,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 808
+    },
+    {
+      "seq_num": 667,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 809
+    },
+    {
+      "seq_num": 668,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 810
+    },
+    {
+      "seq_num": 669,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 811
+    },
+    {
+      "seq_num": 670,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 812
+    },
+    {
+      "seq_num": 671,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 813
+    },
+    {
+      "seq_num": 672,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 814
+    },
+    {
+      "seq_num": 673,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 815
+    },
+    {
+      "seq_num": 674,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 816
+    },
+    {
+      "seq_num": 675,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 817
+    },
+    {
+      "seq_num": 676,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 818
+    },
+    {
+      "seq_num": 677,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 819
+    },
+    {
+      "seq_num": 678,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 820
+    },
+    {
+      "seq_num": 679,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 821
+    },
+    {
+      "seq_num": 680,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 822
+    },
+    {
+      "seq_num": 681,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 823
+    },
+    {
+      "seq_num": 682,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 824
+    },
+    {
+      "seq_num": 683,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 825
+    },
+    {
+      "seq_num": 684,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 826
+    },
+    {
+      "seq_num": 685,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 827
+    },
+    {
+      "seq_num": 686,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 828
+    },
+    {
+      "seq_num": 687,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 829
+    },
+    {
+      "seq_num": 688,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 830
+    },
+    {
+      "seq_num": 689,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 831
+    },
+    {
+      "seq_num": 690,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 832
+    },
+    {
+      "seq_num": 691,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 833
+    },
+    {
+      "seq_num": 692,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 834
+    },
+    {
+      "seq_num": 693,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 835
+    },
+    {
+      "seq_num": 694,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 836
+    },
+    {
+      "seq_num": 695,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 837
+    },
+    {
+      "seq_num": 696,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 838
+    },
+    {
+      "seq_num": 697,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 839
+    },
+    {
+      "seq_num": 698,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 840
+    },
+    {
+      "seq_num": 699,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 841
+    },
+    {
+      "seq_num": 700,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 842
+    },
+    {
+      "seq_num": 701,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 843
+    },
+    {
+      "seq_num": 702,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 844
+    },
+    {
+      "seq_num": 703,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 845
+    },
+    {
+      "seq_num": 704,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 846
+    },
+    {
+      "seq_num": 705,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 847
+    },
+    {
+      "seq_num": 706,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 848
+    },
+    {
+      "seq_num": 707,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 849
+    },
+    {
+      "seq_num": 708,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 850
+    },
+    {
+      "seq_num": 709,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 851
+    },
+    {
+      "seq_num": 710,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 852
+    },
+    {
+      "seq_num": 711,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 853
+    },
+    {
+      "seq_num": 712,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 854
+    },
+    {
+      "seq_num": 713,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 855
+    },
+    {
+      "seq_num": 714,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 856
+    },
+    {
+      "seq_num": 715,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 857
+    },
+    {
+      "seq_num": 716,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 858
+    },
+    {
+      "seq_num": 717,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 859
+    },
+    {
+      "seq_num": 718,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 860
+    },
+    {
+      "seq_num": 719,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 861
+    },
+    {
+      "seq_num": 720,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 862
+    },
+    {
+      "seq_num": 721,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 863
+    },
+    {
+      "seq_num": 722,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 864
+    },
+    {
+      "seq_num": 723,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 865
+    },
+    {
+      "seq_num": 724,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 866
+    },
+    {
+      "seq_num": 725,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 867
+    },
+    {
+      "seq_num": 726,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 868
+    },
+    {
+      "seq_num": 727,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 869
+    },
+    {
+      "seq_num": 728,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 870
+    },
+    {
+      "seq_num": 729,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 871
+    },
+    {
+      "seq_num": 730,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 872
+    },
+    {
+      "seq_num": 731,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 873
+    },
+    {
+      "seq_num": 732,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 874
+    },
+    {
+      "seq_num": 733,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 875
+    },
+    {
+      "seq_num": 734,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 876
+    },
+    {
+      "seq_num": 735,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 877
+    },
+    {
+      "seq_num": 736,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 878
+    },
+    {
+      "seq_num": 737,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 879
+    },
+    {
+      "seq_num": 738,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 880
+    },
+    {
+      "seq_num": 739,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 881
+    },
+    {
+      "seq_num": 740,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 882
+    },
+    {
+      "seq_num": 741,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 883
+    },
+    {
+      "seq_num": 742,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 884
+    },
+    {
+      "seq_num": 743,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 885
+    },
+    {
+      "seq_num": 744,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 886
+    },
+    {
+      "seq_num": 745,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 887
+    },
+    {
+      "seq_num": 746,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 888
+    },
+    {
+      "seq_num": 747,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 889
+    },
+    {
+      "seq_num": 748,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 890
+    },
+    {
+      "seq_num": 749,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 891
+    },
+    {
+      "seq_num": 750,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 892
+    },
+    {
+      "seq_num": 751,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 893
+    },
+    {
+      "seq_num": 752,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 894
+    },
+    {
+      "seq_num": 753,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 753
+    },
+    {
+      "seq_num": 754,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 754
+    },
+    {
+      "seq_num": 755,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 755
+    },
+    {
+      "seq_num": 756,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 756
+    },
+    {
+      "seq_num": 757,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 757
+    },
+    {
+      "seq_num": 758,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 758
+    },
+    {
+      "seq_num": 759,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 759
+    },
+    {
+      "seq_num": 760,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 902
+    },
+    {
+      "seq_num": 761,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 903
+    },
+    {
+      "seq_num": 762,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 904
+    },
+    {
+      "seq_num": 763,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 905
+    },
+    {
+      "seq_num": 764,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 906
+    },
+    {
+      "seq_num": 765,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 907
+    },
+    {
+      "seq_num": 766,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 908
+    },
+    {
+      "seq_num": 767,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 909
+    },
+    {
+      "seq_num": 768,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 910
+    },
+    {
+      "seq_num": 769,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 911
+    },
+    {
+      "seq_num": 770,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 912
+    },
+    {
+      "seq_num": 771,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 913
+    },
+    {
+      "seq_num": 772,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 914
+    },
+    {
+      "seq_num": 773,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 915
+    },
+    {
+      "seq_num": 774,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 916
+    },
+    {
+      "seq_num": 775,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 917
+    },
+    {
+      "seq_num": 776,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 918
+    },
+    {
+      "seq_num": 777,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 919
+    },
+    {
+      "seq_num": 778,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 920
+    },
+    {
+      "seq_num": 779,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 921
+    },
+    {
+      "seq_num": 780,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 922
+    },
+    {
+      "seq_num": 781,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 923
+    },
+    {
+      "seq_num": 782,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 924
+    },
+    {
+      "seq_num": 783,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 925
+    },
+    {
+      "seq_num": 784,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 926
+    },
+    {
+      "seq_num": 785,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 927
+    },
+    {
+      "seq_num": 786,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 928
+    },
+    {
+      "seq_num": 787,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 929
+    },
+    {
+      "seq_num": 788,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 930
+    },
+    {
+      "seq_num": 789,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 931
+    },
+    {
+      "seq_num": 790,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 932
+    },
+    {
+      "seq_num": 791,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 933
+    },
+    {
+      "seq_num": 792,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 934
+    },
+    {
+      "seq_num": 793,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 935
+    },
+    {
+      "seq_num": 794,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 936
+    },
+    {
+      "seq_num": 795,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 937
+    },
+    {
+      "seq_num": 796,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 938
+    },
+    {
+      "seq_num": 797,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 939
+    },
+    {
+      "seq_num": 798,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 940
+    },
+    {
+      "seq_num": 799,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 941
+    },
+    {
+      "seq_num": 800,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 942
+    },
+    {
+      "seq_num": 801,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 943
+    },
+    {
+      "seq_num": 802,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 944
+    },
+    {
+      "seq_num": 803,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 945
+    },
+    {
+      "seq_num": 804,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 946
+    },
+    {
+      "seq_num": 805,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 947
+    },
+    {
+      "seq_num": 806,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 948
+    },
+    {
+      "seq_num": 807,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 949
+    },
+    {
+      "seq_num": 808,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 950
+    },
+    {
+      "seq_num": 809,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 951
+    },
+    {
+      "seq_num": 810,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 952
+    },
+    {
+      "seq_num": 811,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 953
+    },
+    {
+      "seq_num": 812,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 954
+    },
+    {
+      "seq_num": 813,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 955
+    },
+    {
+      "seq_num": 814,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 956
+    },
+    {
+      "seq_num": 815,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 957
+    },
+    {
+      "seq_num": 816,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 958
+    },
+    {
+      "seq_num": 817,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 959
+    },
+    {
+      "seq_num": 818,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 960
+    },
+    {
+      "seq_num": 819,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 961
+    },
+    {
+      "seq_num": 820,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 962
+    },
+    {
+      "seq_num": 821,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 963
+    },
+    {
+      "seq_num": 822,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 964
+    },
+    {
+      "seq_num": 823,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 965
+    },
+    {
+      "seq_num": 824,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 966
+    },
+    {
+      "seq_num": 825,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 967
+    },
+    {
+      "seq_num": 826,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 968
+    },
+    {
+      "seq_num": 827,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 827
+    },
+    {
+      "seq_num": 828,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 828
+    },
+    {
+      "seq_num": 829,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 829
+    },
+    {
+      "seq_num": 830,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 830
+    },
+    {
+      "seq_num": 831,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 831
+    },
+    {
+      "seq_num": 832,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 832
+    },
+    {
+      "seq_num": 833,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 833
+    },
+    {
+      "seq_num": 834,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 834
+    },
+    {
+      "seq_num": 835,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 835
+    },
+    {
+      "seq_num": 836,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 836
+    },
+    {
+      "seq_num": 837,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 837
+    },
+    {
+      "seq_num": 838,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 838
+    },
+    {
+      "seq_num": 839,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 981
+    },
+    {
+      "seq_num": 840,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 982
+    },
+    {
+      "seq_num": 841,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 983
+    },
+    {
+      "seq_num": 842,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 984
+    },
+    {
+      "seq_num": 843,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 985
+    },
+    {
+      "seq_num": 844,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 986
+    },
+    {
+      "seq_num": 845,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 987
+    },
+    {
+      "seq_num": 846,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 988
+    },
+    {
+      "seq_num": 847,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 989
+    },
+    {
+      "seq_num": 848,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 990
+    },
+    {
+      "seq_num": 849,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 991
+    },
+    {
+      "seq_num": 850,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 992
+    },
+    {
+      "seq_num": 851,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 993
+    },
+    {
+      "seq_num": 852,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 994
+    },
+    {
+      "seq_num": 853,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 995
+    },
+    {
+      "seq_num": 854,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 996
+    },
+    {
+      "seq_num": 855,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 997
+    },
+    {
+      "seq_num": 856,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 998
+    },
+    {
+      "seq_num": 857,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 999
+    },
+    {
+      "seq_num": 858,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1000
+    },
+    {
+      "seq_num": 859,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1001
+    },
+    {
+      "seq_num": 860,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1002
+    },
+    {
+      "seq_num": 861,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 1003
+    },
+    {
+      "seq_num": 862,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 1004
+    },
+    {
+      "seq_num": 863,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 1005
+    },
+    {
+      "seq_num": 864,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1006
+    },
+    {
+      "seq_num": 865,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 1007
+    },
+    {
+      "seq_num": 866,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1008
+    },
+    {
+      "seq_num": 867,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1009
+    },
+    {
+      "seq_num": 868,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 1010
+    },
+    {
+      "seq_num": 869,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1011
+    },
+    {
+      "seq_num": 870,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1012
+    },
+    {
+      "seq_num": 871,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 1013
+    },
+    {
+      "seq_num": 872,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 1014
+    },
+    {
+      "seq_num": 873,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1015
+    },
+    {
+      "seq_num": 874,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 1016
+    },
+    {
+      "seq_num": 875,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 1017
+    },
+    {
+      "seq_num": 876,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1018
+    },
+    {
+      "seq_num": 877,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 1019
+    },
+    {
+      "seq_num": 878,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1020
+    },
+    {
+      "seq_num": 879,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 1021
+    },
+    {
+      "seq_num": 880,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 1022
+    },
+    {
+      "seq_num": 881,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 1023
+    },
+    {
+      "seq_num": 882,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1024
+    },
+    {
+      "seq_num": 883,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 1025
+    },
+    {
+      "seq_num": 884,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1026
+    },
+    {
+      "seq_num": 885,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1027
+    },
+    {
+      "seq_num": 886,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1028
+    },
+    {
+      "seq_num": 887,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1029
+    },
+    {
+      "seq_num": 888,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1030
+    },
+    {
+      "seq_num": 889,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1031
+    },
+    {
+      "seq_num": 890,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 1032
+    },
+    {
+      "seq_num": 891,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 1033
+    },
+    {
+      "seq_num": 892,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 1034
+    },
+    {
+      "seq_num": 893,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1035
+    },
+    {
+      "seq_num": 894,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 1036
+    },
+    {
+      "seq_num": 895,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1037
+    },
+    {
+      "seq_num": 896,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 1038
+    },
+    {
+      "seq_num": 897,
+      "aa_type": "MET",
+      "chain_id": "A",
+      "auth_seq_id": 1039
+    },
+    {
+      "seq_num": 898,
+      "aa_type": "PRO",
+      "chain_id": "A",
+      "auth_seq_id": 1040
+    },
+    {
+      "seq_num": 899,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 899
+    },
+    {
+      "seq_num": 900,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 900
+    },
+    {
+      "seq_num": 901,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1043
+    },
+    {
+      "seq_num": 902,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 1044
+    },
+    {
+      "seq_num": 903,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1045
+    },
+    {
+      "seq_num": 904,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 1046
+    },
+    {
+      "seq_num": 905,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1047
+    },
+    {
+      "seq_num": 906,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1048
+    },
+    {
+      "seq_num": 907,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 1049
+    },
+    {
+      "seq_num": 908,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 1050
+    },
+    {
+      "seq_num": 909,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1051
+    },
+    {
+      "seq_num": 910,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 1052
+    },
+    {
+      "seq_num": 911,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1053
+    },
+    {
+      "seq_num": 912,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 1054
+    },
+    {
+      "seq_num": 913,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1055
+    },
+    {
+      "seq_num": 914,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1056
+    },
+    {
+      "seq_num": 915,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 1057
+    },
+    {
+      "seq_num": 916,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 1058
+    },
+    {
+      "seq_num": 917,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1059
+    },
+    {
+      "seq_num": 918,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 1060
+    },
+    {
+      "seq_num": 919,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 1061
+    },
+    {
+      "seq_num": 920,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 1062
+    },
+    {
+      "seq_num": 921,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1063
+    },
+    {
+      "seq_num": 922,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 1064
+    },
+    {
+      "seq_num": 923,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1065
+    },
+    {
+      "seq_num": 924,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1066
+    },
+    {
+      "seq_num": 925,
+      "aa_type": "TYR",
+      "chain_id": "A",
+      "auth_seq_id": 1067
+    },
+    {
+      "seq_num": 926,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1068
+    },
+    {
+      "seq_num": 927,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1069
+    },
+    {
+      "seq_num": 928,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1070
+    },
+    {
+      "seq_num": 929,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 1071
+    },
+    {
+      "seq_num": 930,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 1072
+    },
+    {
+      "seq_num": 931,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 1073
+    },
+    {
+      "seq_num": 932,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 1074
+    },
+    {
+      "seq_num": 933,
+      "aa_type": "CYS",
+      "chain_id": "A",
+      "auth_seq_id": 1075
+    },
+    {
+      "seq_num": 934,
+      "aa_type": "ARG",
+      "chain_id": "A",
+      "auth_seq_id": 1076
+    },
+    {
+      "seq_num": 935,
+      "aa_type": "ASP",
+      "chain_id": "A",
+      "auth_seq_id": 1077
+    },
+    {
+      "seq_num": 936,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 1078
+    },
+    {
+      "seq_num": 937,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 1079
+    },
+    {
+      "seq_num": 938,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 1080
+    },
+    {
+      "seq_num": 939,
+      "aa_type": "THR",
+      "chain_id": "A",
+      "auth_seq_id": 1081
+    },
+    {
+      "seq_num": 940,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 1082
+    },
+    {
+      "seq_num": 941,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 1083
+    },
+    {
+      "seq_num": 942,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1084
+    },
+    {
+      "seq_num": 943,
+      "aa_type": "ASN",
+      "chain_id": "A",
+      "auth_seq_id": 1085
+    },
+    {
+      "seq_num": 944,
+      "aa_type": "TRP",
+      "chain_id": "A",
+      "auth_seq_id": 1086
+    },
+    {
+      "seq_num": 945,
+      "aa_type": "PHE",
+      "chain_id": "A",
+      "auth_seq_id": 1087
+    },
+    {
+      "seq_num": 946,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1088
+    },
+    {
+      "seq_num": 947,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 1089
+    },
+    {
+      "seq_num": 948,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 1090
+    },
+    {
+      "seq_num": 949,
+      "aa_type": "VAL",
+      "chain_id": "A",
+      "auth_seq_id": 1091
+    },
+    {
+      "seq_num": 950,
+      "aa_type": "LEU",
+      "chain_id": "A",
+      "auth_seq_id": 950
+    },
+    {
+      "seq_num": 951,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 951
+    },
+    {
+      "seq_num": 952,
+      "aa_type": "ILE",
+      "chain_id": "A",
+      "auth_seq_id": 952
+    },
+    {
+      "seq_num": 953,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 953
+    },
+    {
+      "seq_num": 954,
+      "aa_type": "GLN",
+      "chain_id": "A",
+      "auth_seq_id": 954
+    },
+    {
+      "seq_num": 955,
+      "aa_type": "GLY",
+      "chain_id": "A",
+      "auth_seq_id": 955
+    },
+    {
+      "seq_num": 956,
+      "aa_type": "GLU",
+      "chain_id": "A",
+      "auth_seq_id": 956
+    },
+    {
+      "seq_num": 957,
+      "aa_type": "LYS",
+      "chain_id": "A",
+      "auth_seq_id": 957
+    },
+    {
+      "seq_num": 958,
+      "aa_type": "HIS",
+      "chain_id": "A",
+      "auth_seq_id": 958
+    },
+    {
+      "seq_num": 959,
+      "aa_type": "SER",
+      "chain_id": "A",
+      "auth_seq_id": 959
+    },
+    {
+      "seq_num": 960,
+      "aa_type": "ALA",
+      "chain_id": "A",
+      "auth_seq_id": 960
+    }
+  ],
+  "pharmacophore_features": {
+    "hydrophobic_regions": [
+      "MET1",
+      "ALA149",
+      "PHE150",
+      "LEU154",
+      "ALA156",
+      "LEU157",
+      "ILE158",
+      "VAL162",
+      "VAL165",
+      "VAL168",
+      "LEU173",
+      "PHE175",
+      "LEU180",
+      "VAL181",
+      "PRO183",
+      "MET185",
+      "ALA186",
+      "VAL188",
+      "ALA189",
+      "PRO193",
+      "LEU195",
+      "ALA197",
+      "MET198",
+      "PRO200",
+      "TRP201",
+      "VAL202",
+      "PRO206",
+      "LEU207",
+      "PRO208",
+      "LEU211",
+      "TRP212",
+      "ILE215",
+      "ALA216",
+      "ILE220",
+      "PHE221",
+      "ILE222",
+      "VAL223",
+      "ILE224",
+      "ILE233",
+      "VAL235",
+      "PRO237",
+      "PRO241",
+      "ALA243",
+      "ILE244",
+      "LEU245",
+      "PHE248",
+      "PHE249",
+      "MET252",
+      "ALA111",
+      "LEU116",
+      "MET117",
+      "ILE119",
+      "PRO120",
+      "PHE270",
+      "VAL271",
+      "LEU272",
+      "VAL274",
+      "LEU281",
+      "VAL282",
+      "PRO286",
+      "ILE287",
+      "PHE290",
+      "TRP292",
+      "VAL293",
+      "LEU297",
+      "ILE303",
+      "VAL305",
+      "VAL306",
+      "LEU307",
+      "PRO310",
+      "PRO311",
+      "PRO313",
+      "ALA314",
+      "LEU315",
+      "VAL318",
+      "TRP181",
+      "PRO182",
+      "LEU183",
+      "VAL184",
+      "VAL190",
+      "LEU197",
+      "ILE199",
+      "VAL207",
+      "PHE208",
+      "VAL210",
+      "LEU212",
+      "TRP213",
+      "PHE361",
+      "VAL363",
+      "ILE365",
+      "ILE368",
+      "ILE370",
+      "PRO371",
+      "VAL372",
+      "LEU373",
+      "PRO232",
+      "LEU237",
+      "VAL381",
+      "PHE382",
+      "VAL383",
+      "ALA385",
+      "ILE387",
+      "VAL393",
+      "LEU394",
+      "PRO401",
+      "PRO403",
+      "PHE404",
+      "VAL408",
+      "LEU409",
+      "TRP410",
+      "VAL412",
+      "TRP413",
+      "LEU414",
+      "PHE416",
+      "ILE418",
+      "ILE420",
+      "LEU423",
+      "PRO424",
+      "ALA427",
+      "LEU428",
+      "LEU429",
+      "LEU431",
+      "ILE433",
+      "ALA296",
+      "PRO297",
+      "ALA298",
+      "LEU299",
+      "ALA303",
+      "ALA305",
+      "PRO308",
+      "VAL316",
+      "LEU318",
+      "LEU461",
+      "VAL464",
+      "LEU466",
+      "LEU467",
+      "LEU468",
+      "ILE469",
+      "PHE473",
+      "LEU474",
+      "LEU475",
+      "VAL481",
+      "LEU482",
+      "MET484",
+      "TRP485",
+      "ILE487",
+      "PHE497",
+      "ALA499",
+      "LEU502",
+      "ALA505",
+      "PRO508",
+      "MET514",
+      "ILE516",
+      "ILE518",
+      "LEU519",
+      "LEU520",
+      "PRO526",
+      "ILE527",
+      "ALA528",
+      "LEU387",
+      "PRO388",
+      "PRO392",
+      "PRO394",
+      "PRO396",
+      "VAL401",
+      "ALA545",
+      "MET547",
+      "PRO548",
+      "LEU551",
+      "LEU555",
+      "ALA557",
+      "ILE558",
+      "ILE559",
+      "ALA560",
+      "PRO563",
+      "LEU564",
+      "PRO566",
+      "LEU567",
+      "ALA569",
+      "LEU574",
+      "LEU575",
+      "TRP576",
+      "PHE578",
+      "LEU583",
+      "PRO586",
+      "ALA588",
+      "PRO590",
+      "LEU592",
+      "PHE593",
+      "VAL596",
+      "TRP598",
+      "ILE603",
+      "VAL604",
+      "ALA605",
+      "LEU610",
+      "LEU611",
+      "ALA612",
+      "VAL616",
+      "TRP617",
+      "ALA621",
+      "LEU622",
+      "VAL624",
+      "LEU626",
+      "MET628",
+      "LEU630",
+      "LEU631",
+      "PHE635",
+      "VAL640",
+      "ALA642",
+      "ILE643",
+      "ALA644",
+      "VAL645",
+      "LEU648",
+      "LEU651",
+      "VAL656",
+      "LEU657",
+      "LEU660",
+      "LEU661",
+      "LEU663",
+      "VAL664",
+      "ALA666",
+      "VAL667",
+      "PHE669",
+      "PRO671",
+      "ALA676",
+      "LEU677",
+      "ALA678",
+      "PHE680",
+      "LEU681",
+      "LEU682",
+      "LEU686",
+      "ILE691",
+      "PHE694",
+      "LEU695",
+      "PHE696",
+      "TRP697",
+      "PHE698",
+      "LEU699",
+      "ILE703",
+      "ALA704",
+      "PHE713",
+      "ALA714",
+      "VAL715",
+      "ILE716",
+      "LEU717",
+      "ALA719",
+      "LEU721",
+      "ALA727",
+      "MET728",
+      "LEU729",
+      "PHE732",
+      "VAL736",
+      "VAL738",
+      "ILE739",
+      "MET741",
+      "LEU742",
+      "VAL745",
+      "LEU747",
+      "ILE749",
+      "LEU752",
+      "ALA754",
+      "VAL617",
+      "VAL763",
+      "ILE764",
+      "LEU767",
+      "LEU771",
+      "LEU774",
+      "LEU779",
+      "PRO780",
+      "PHE783",
+      "VAL785",
+      "PRO786",
+      "PRO789",
+      "LEU791",
+      "ALA793",
+      "ALA795",
+      "LEU796",
+      "ALA797",
+      "ILE798",
+      "VAL803",
+      "MET804",
+      "ALA805",
+      "PRO810",
+      "LEU811",
+      "TRP812",
+      "LEU813",
+      "PHE815",
+      "ALA818",
+      "PRO820",
+      "ALA822",
+      "LEU823",
+      "ILE828",
+      "ILE830",
+      "ILE831",
+      "PHE832",
+      "LEU838",
+      "MET842",
+      "LEU843",
+      "ILE844",
+      "LEU845",
+      "ILE847",
+      "LEU848",
+      "ILE850",
+      "MET851",
+      "ILE854",
+      "TRP855",
+      "LEU860",
+      "LEU862",
+      "LEU864",
+      "LEU865",
+      "PRO866",
+      "ILE870",
+      "ILE876",
+      "MET878",
+      "ILE879",
+      "ILE881",
+      "VAL882",
+      "ALA885",
+      "ILE888",
+      "ALA889",
+      "ILE891",
+      "VAL754",
+      "ALA759",
+      "PHE902",
+      "VAL906",
+      "LEU907",
+      "TRP910",
+      "LEU911",
+      "PRO916",
+      "PHE921",
+      "ALA923",
+      "ALA924",
+      "VAL925",
+      "PHE928",
+      "VAL929",
+      "ALA933",
+      "VAL937",
+      "ALA938",
+      "PHE940",
+      "VAL941",
+      "LEU942",
+      "ILE944",
+      "ILE952",
+      "MET953",
+      "ILE954",
+      "LEU960",
+      "PHE961",
+      "ILE963",
+      "PHE965",
+      "ILE968",
+      "LEU827",
+      "PHE833",
+      "LEU834",
+      "ILE836",
+      "VAL983",
+      "PRO984",
+      "PHE985",
+      "VAL986",
+      "LEU987",
+      "PRO989",
+      "PHE991",
+      "LEU992",
+      "PHE993",
+      "VAL994",
+      "MET995",
+      "PRO1004",
+      "PHE1006",
+      "PHE1009",
+      "ILE1012",
+      "VAL1014",
+      "ALA1016",
+      "LEU1018",
+      "ALA1019",
+      "LEU1020",
+      "LEU1026",
+      "LEU1027",
+      "ILE1028",
+      "ILE1029",
+      "LEU1030",
+      "PHE1031",
+      "MET1033",
+      "MET1034",
+      "LEU1035",
+      "MET1036",
+      "MET1039",
+      "PRO1040",
+      "LEU900",
+      "ILE1048",
+      "ILE1051",
+      "ALA1054",
+      "LEU1055",
+      "VAL1057",
+      "ALA1064",
+      "PHE1068",
+      "LEU1069",
+      "ILE1072",
+      "VAL1074",
+      "TRP1080",
+      "VAL1082",
+      "PHE1084",
+      "TRP1086",
+      "PHE1087",
+      "LEU1088",
+      "LEU1090",
+      "VAL1091",
+      "LEU950",
+      "ILE952",
+      "ALA960"
+    ],
+    "hydrogen_bond_donors": [
+      "SER144",
+      "SER147",
+      "ARG152",
+      "THR155",
+      "TYR160",
+      "THR163",
+      "SER166",
+      "HIS169",
+      "THR176",
+      "ARG177",
+      "ARG178",
+      "THR182",
+      "ARG184",
+      "SER190",
+      "ARG191",
+      "LYS194",
+      "TYR196",
+      "HIS199",
+      "TRP201",
+      "THR203",
+      "SER204",
+      "LYS205",
+      "TYR210",
+      "TRP212",
+      "LYS213",
+      "LYS214",
+      "CYS219",
+      "HIS225",
+      "ARG226",
+      "SER227",
+      "THR228",
+      "THR229",
+      "SER230",
+      "THR232",
+      "LYS234",
+      "SER236",
+      "THR240",
+      "SER247",
+      "THR250",
+      "LYS251",
+      "LYS112",
+      "LYS113",
+      "LYS114",
+      "SER115",
+      "SER122",
+      "SER124",
+      "ARG273",
+      "CYS275",
+      "ARG277",
+      "TYR280",
+      "THR285",
+      "LYS288",
+      "TRP292",
+      "ARG294",
+      "HIS295",
+      "CYS296",
+      "LYS298",
+      "HIS304",
+      "THR309",
+      "ARG319",
+      "LYS178",
+      "TRP181",
+      "CYS187",
+      "THR188",
+      "THR191",
+      "TYR193",
+      "HIS194",
+      "THR198",
+      "HIS200",
+      "LYS202",
+      "HIS204",
+      "SER206",
+      "THR209",
+      "SER211",
+      "TRP213",
+      "CYS357",
+      "ARG359",
+      "LYS360",
+      "ARG362",
+      "LYS364",
+      "ARG366",
+      "ARG233",
+      "THR235",
+      "THR380",
+      "HIS389",
+      "CYS395",
+      "ARG397",
+      "ARG398",
+      "THR399",
+      "SER400",
+      "LYS402",
+      "THR405",
+      "TRP410",
+      "TRP413",
+      "SER417",
+      "LYS419",
+      "LYS421",
+      "LYS425",
+      "TYR434",
+      "CYS435",
+      "LYS295",
+      "SER300",
+      "SER301",
+      "LYS302",
+      "SER304",
+      "SER307",
+      "SER309",
+      "SER310",
+      "SER312",
+      "LYS313",
+      "LYS315",
+      "TYR462",
+      "TYR463",
+      "HIS471",
+      "ARG472",
+      "ARG476",
+      "ARG477",
+      "TYR480",
+      "HIS483",
+      "TRP485",
+      "SER488",
+      "LYS348",
+      "SER354",
+      "LYS501",
+      "THR503",
+      "SER504",
+      "THR506",
+      "LYS510",
+      "SER513",
+      "SER515",
+      "SER517",
+      "TYR381",
+      "CYS382",
+      "HIS525",
+      "LYS389",
+      "HIS390",
+      "THR393",
+      "ARG400",
+      "ARG402",
+      "ARG552",
+      "LYS553",
+      "THR561",
+      "THR568",
+      "LYS572",
+      "TRP576",
+      "HIS577",
+      "ARG579",
+      "TYR580",
+      "SER582",
+      "LYS584",
+      "HIS585",
+      "LYS587",
+      "TYR589",
+      "LYS591",
+      "SER594",
+      "SER595",
+      "LYS597",
+      "TRP598",
+      "LYS606",
+      "THR607",
+      "TYR608",
+      "ARG613",
+      "ARG614",
+      "TRP617",
+      "SER620",
+      "THR627",
+      "CYS633",
+      "SER636",
+      "ARG641",
+      "LYS647",
+      "SER650",
+      "HIS658",
+      "TYR659",
+      "LYS668",
+      "TYR672",
+      "HIS673",
+      "SER675",
+      "ARG679",
+      "LYS683",
+      "ARG684",
+      "ARG687",
+      "LYS689",
+      "ARG690",
+      "HIS693",
+      "TRP697",
+      "ARG700",
+      "SER701",
+      "SER706",
+      "ARG707",
+      "HIS708",
+      "TYR709",
+      "ARG712",
+      "TYR720",
+      "ARG722",
+      "CYS724",
+      "THR726",
+      "HIS730",
+      "THR733",
+      "LYS744",
+      "THR746",
+      "LYS750",
+      "SER751",
+      "SER753",
+      "LYS614",
+      "TYR615",
+      "SER760",
+      "SER761",
+      "SER765",
+      "LYS768",
+      "LYS770",
+      "SER635",
+      "SER782",
+      "ARG784",
+      "TYR787",
+      "LYS792",
+      "LYS800",
+      "CYS801",
+      "LYS802",
+      "SER806",
+      "LYS807",
+      "LYS808",
+      "LYS809",
+      "TRP812",
+      "LYS816",
+      "CYS817",
+      "THR821",
+      "SER824",
+      "THR827",
+      "LYS833",
+      "HIS834",
+      "ARG839",
+      "ARG849",
+      "SER853",
+      "TRP855",
+      "THR857",
+      "SER859",
+      "CYS863",
+      "TYR867",
+      "CYS869",
+      "SER871",
+      "THR872",
+      "LYS875",
+      "LYS883",
+      "THR886",
+      "THR887",
+      "LYS890",
+      "SER894",
+      "THR753",
+      "THR757",
+      "LYS903",
+      "HIS909",
+      "TRP910",
+      "LYS912",
+      "LYS914",
+      "SER915",
+      "THR917",
+      "LYS920",
+      "ARG927",
+      "TYR930",
+      "SER931",
+      "CYS932",
+      "TYR935",
+      "CYS936",
+      "THR939",
+      "ARG947",
+      "HIS948",
+      "THR955",
+      "THR957",
+      "HIS962",
+      "HIS967",
+      "TYR830",
+      "LYS831",
+      "SER832",
+      "LYS838",
+      "ARG982",
+      "THR988",
+      "THR997",
+      "SER998",
+      "LYS1000",
+      "LYS1001",
+      "THR1002",
+      "SER1003",
+      "HIS1005",
+      "LYS1008",
+      "CYS1013",
+      "LYS1015",
+      "TYR1017",
+      "ARG1021",
+      "HIS1022",
+      "HIS1023",
+      "THR1024",
+      "SER1032",
+      "THR1037",
+      "THR1043",
+      "SER1044",
+      "LYS1045",
+      "TYR1050",
+      "ARG1052",
+      "THR1056",
+      "LYS1059",
+      "LYS1065",
+      "LYS1066",
+      "TYR1067",
+      "CYS1075",
+      "ARG1076",
+      "LYS1078",
+      "TRP1080",
+      "THR1081",
+      "TRP1086",
+      "HIS1089",
+      "LYS953",
+      "LYS957",
+      "HIS958",
+      "SER959"
+    ],
+    "hydrogen_bond_acceptors": [
+      "SER144",
+      "GLU145",
+      "GLU146",
+      "SER147",
+      "GLN148",
+      "GLN151",
+      "GLN153",
+      "THR155",
+      "TYR160",
+      "ASP161",
+      "THR163",
+      "ASP164",
+      "SER166",
+      "ASN167",
+      "ASP170",
+      "ASP171",
+      "GLU172",
+      "GLU174",
+      "THR176",
+      "THR182",
+      "GLU187",
+      "SER190",
+      "ASP192",
+      "TYR196",
+      "THR203",
+      "SER204",
+      "GLU209",
+      "TYR210",
+      "ASN217",
+      "ASN218",
+      "CYS219",
+      "SER227",
+      "THR228",
+      "THR229",
+      "SER230",
+      "GLN231",
+      "THR232",
+      "SER236",
+      "ASP238",
+      "ASP239",
+      "THR240",
+      "GLN246",
+      "SER247",
+      "THR250",
+      "SER115",
+      "ASP118",
+      "GLU121",
+      "SER122",
+      "GLN123",
+      "SER124",
+      "GLU125",
+      "GLN268",
+      "ASP269",
+      "CYS275",
+      "ASP278",
+      "GLU279",
+      "TYR280",
+      "GLU284",
+      "THR285",
+      "ASN289",
+      "GLN291",
+      "CYS296",
+      "ASN299",
+      "GLU301",
+      "GLU302",
+      "ASP308",
+      "THR309",
+      "ASP312",
+      "ASP316",
+      "GLU317",
+      "GLU179",
+      "GLU180",
+      "ASP185",
+      "ASP186",
+      "CYS187",
+      "THR188",
+      "THR191",
+      "TYR193",
+      "GLU195",
+      "GLN196",
+      "THR198",
+      "ASP203",
+      "GLU205",
+      "SER206",
+      "THR209",
+      "SER211",
+      "ASP214",
+      "CYS357",
+      "ASP358",
+      "ASP369",
+      "ASN234",
+      "THR235",
+      "ASP236",
+      "THR380",
+      "GLU384",
+      "ASN386",
+      "GLN388",
+      "GLN391",
+      "GLN392",
+      "CYS395",
+      "GLN396",
+      "THR399",
+      "SER400",
+      "THR405",
+      "GLU406",
+      "GLU407",
+      "ASN411",
+      "GLU415",
+      "SER417",
+      "ASP422",
+      "ASN430",
+      "GLN432",
+      "TYR434",
+      "CYS435",
+      "SER300",
+      "SER301",
+      "SER304",
+      "GLU306",
+      "SER307",
+      "SER309",
+      "SER310",
+      "GLU311",
+      "SER312",
+      "GLN317",
+      "TYR462",
+      "TYR463",
+      "ASN465",
+      "ASP470",
+      "GLU479",
+      "TYR480",
+      "GLN486",
+      "SER488",
+      "GLU350",
+      "ASP351",
+      "GLN352",
+      "SER354",
+      "ASN498",
+      "ASP500",
+      "THR503",
+      "SER504",
+      "THR506",
+      "ASN507",
+      "ASP509",
+      "GLU511",
+      "ASN512",
+      "SER513",
+      "SER515",
+      "SER517",
+      "ASP521",
+      "ASN522",
+      "TYR381",
+      "CYS382",
+      "GLN391",
+      "THR393",
+      "ASP395",
+      "GLU397",
+      "ASP399",
+      "GLU546",
+      "ASN549",
+      "GLN550",
+      "GLN554",
+      "GLU556",
+      "THR561",
+      "ASP562",
+      "ASN565",
+      "THR568",
+      "GLU570",
+      "ASP571",
+      "GLU573",
+      "TYR580",
+      "GLU581",
+      "SER582",
+      "TYR589",
+      "SER594",
+      "SER595",
+      "GLN600",
+      "GLN601",
+      "GLU602",
+      "THR607",
+      "TYR608",
+      "GLN609",
+      "GLU615",
+      "ASP618",
+      "GLN619",
+      "SER620",
+      "ASP623",
+      "THR627",
+      "GLN629",
+      "ASP632",
+      "CYS633",
+      "ASN634",
+      "SER636",
+      "ASP637",
+      "GLU638",
+      "ASN639",
+      "GLN646",
+      "GLU649",
+      "SER650",
+      "GLU652",
+      "ASP653",
+      "ASP654",
+      "ASP655",
+      "TYR659",
+      "GLN662",
+      "GLN665",
+      "GLU670",
+      "TYR672",
+      "ASP674",
+      "SER675",
+      "ASN688",
+      "SER701",
+      "GLU702",
+      "GLN705",
+      "SER706",
+      "TYR709",
+      "GLN710",
+      "GLN711",
+      "GLU718",
+      "TYR720",
+      "CYS724",
+      "THR726",
+      "ASP731",
+      "THR733",
+      "GLN734",
+      "GLN735",
+      "GLN737",
+      "GLU740",
+      "GLN743",
+      "THR746",
+      "ASP748",
+      "SER751",
+      "SER753",
+      "GLU613",
+      "TYR615",
+      "ASP616",
+      "SER760",
+      "SER761",
+      "GLN762",
+      "SER765",
+      "GLN766",
+      "GLN769",
+      "GLU772",
+      "ASN773",
+      "GLN775",
+      "ASN634",
+      "SER635",
+      "GLN636",
+      "GLU781",
+      "SER782",
+      "TYR787",
+      "ASP788",
+      "GLU799",
+      "CYS801",
+      "SER806",
+      "GLU814",
+      "CYS817",
+      "ASP819",
+      "THR821",
+      "SER824",
+      "ASN825",
+      "GLU826",
+      "THR827",
+      "ASP836",
+      "ASP837",
+      "GLN840",
+      "ASP841",
+      "GLN846",
+      "GLU852",
+      "SER853",
+      "GLU856",
+      "THR857",
+      "GLU858",
+      "SER859",
+      "ASP861",
+      "CYS863",
+      "TYR867",
+      "CYS869",
+      "SER871",
+      "THR872",
+      "ASP874",
+      "GLU880",
+      "ASP884",
+      "THR886",
+      "THR887",
+      "GLN892",
+      "GLN893",
+      "SER894",
+      "THR753",
+      "ASN756",
+      "THR757",
+      "ASP904",
+      "GLU905",
+      "ASN908",
+      "GLU913",
+      "SER915",
+      "THR917",
+      "GLU918",
+      "GLU919",
+      "GLN922",
+      "GLU926",
+      "TYR930",
+      "SER931",
+      "CYS932",
+      "TYR935",
+      "CYS936",
+      "THR939",
+      "ASP946",
+      "ASN949",
+      "ASP950",
+      "ASN951",
+      "THR955",
+      "GLU956",
+      "THR957",
+      "ASN959",
+      "ASP964",
+      "ASN829",
+      "TYR830",
+      "SER832",
+      "ASN837",
+      "GLU981",
+      "THR988",
+      "ASP990",
+      "THR997",
+      "SER998",
+      "THR1002",
+      "SER1003",
+      "GLN1007",
+      "GLN1010",
+      "ASP1011",
+      "CYS1013",
+      "TYR1017",
+      "THR1024",
+      "ASN1025",
+      "SER1032",
+      "THR1037",
+      "GLN899",
+      "THR1043",
+      "SER1044",
+      "GLU1046",
+      "ASP1047",
+      "GLU1049",
+      "TYR1050",
+      "ASP1053",
+      "THR1056",
+      "ASN1060",
+      "GLU1061",
+      "GLU1062",
+      "ASP1063",
+      "TYR1067",
+      "ASP1070",
+      "GLN1071",
+      "GLU1073",
+      "CYS1075",
+      "ASP1077",
+      "THR1081",
+      "GLN1083",
+      "ASN1085",
+      "GLN954",
+      "GLU956",
+      "SER959"
+    ],
+    "aromatic_regions": [
+      "PHE150",
+      "TYR160",
+      "HIS169",
+      "PHE175",
+      "TYR196",
+      "HIS199",
+      "TRP201",
+      "TYR210",
+      "TRP212",
+      "PHE221",
+      "HIS225",
+      "PHE248",
+      "PHE249",
+      "PHE270",
+      "TYR280",
+      "PHE290",
+      "TRP292",
+      "HIS295",
+      "HIS304",
+      "TRP181",
+      "TYR193",
+      "HIS194",
+      "HIS200",
+      "HIS204",
+      "PHE208",
+      "TRP213",
+      "PHE361",
+      "PHE382",
+      "HIS389",
+      "PHE404",
+      "TRP410",
+      "TRP413",
+      "PHE416",
+      "TYR434",
+      "TYR462",
+      "TYR463",
+      "HIS471",
+      "PHE473",
+      "TYR480",
+      "HIS483",
+      "TRP485",
+      "PHE497",
+      "TYR381",
+      "HIS525",
+      "HIS390",
+      "TRP576",
+      "HIS577",
+      "PHE578",
+      "TYR580",
+      "HIS585",
+      "TYR589",
+      "PHE593",
+      "TRP598",
+      "TYR608",
+      "TRP617",
+      "PHE635",
+      "HIS658",
+      "TYR659",
+      "PHE669",
+      "TYR672",
+      "HIS673",
+      "PHE680",
+      "HIS693",
+      "PHE694",
+      "PHE696",
+      "TRP697",
+      "PHE698",
+      "HIS708",
+      "TYR709",
+      "PHE713",
+      "TYR720",
+      "HIS730",
+      "PHE732",
+      "TYR615",
+      "PHE783",
+      "TYR787",
+      "TRP812",
+      "PHE815",
+      "PHE832",
+      "HIS834",
+      "TRP855",
+      "TYR867",
+      "PHE902",
+      "HIS909",
+      "TRP910",
+      "PHE921",
+      "PHE928",
+      "TYR930",
+      "TYR935",
+      "PHE940",
+      "HIS948",
+      "PHE961",
+      "HIS962",
+      "PHE965",
+      "HIS967",
+      "TYR830",
+      "PHE833",
+      "PHE985",
+      "PHE991",
+      "PHE993",
+      "HIS1005",
+      "PHE1006",
+      "PHE1009",
+      "TYR1017",
+      "HIS1022",
+      "HIS1023",
+      "PHE1031",
+      "TYR1050",
+      "TYR1067",
+      "PHE1068",
+      "TRP1080",
+      "PHE1084",
+      "TRP1086",
+      "PHE1087",
+      "HIS1089",
+      "HIS958"
+    ],
+    "positive_charge": [
+      "ARG152",
+      "HIS169",
+      "ARG177",
+      "ARG178",
+      "ARG184",
+      "ARG191",
+      "LYS194",
+      "HIS199",
+      "LYS205",
+      "LYS213",
+      "LYS214",
+      "HIS225",
+      "ARG226",
+      "LYS234",
+      "LYS251",
+      "LYS112",
+      "LYS113",
+      "LYS114",
+      "ARG273",
+      "ARG277",
+      "LYS288",
+      "ARG294",
+      "HIS295",
+      "LYS298",
+      "HIS304",
+      "ARG319",
+      "LYS178",
+      "HIS194",
+      "HIS200",
+      "LYS202",
+      "HIS204",
+      "ARG359",
+      "LYS360",
+      "ARG362",
+      "LYS364",
+      "ARG366",
+      "ARG233",
+      "HIS389",
+      "ARG397",
+      "ARG398",
+      "LYS402",
+      "LYS419",
+      "LYS421",
+      "LYS425",
+      "LYS295",
+      "LYS302",
+      "LYS313",
+      "LYS315",
+      "HIS471",
+      "ARG472",
+      "ARG476",
+      "ARG477",
+      "HIS483",
+      "LYS348",
+      "LYS501",
+      "LYS510",
+      "HIS525",
+      "LYS389",
+      "HIS390",
+      "ARG400",
+      "ARG402",
+      "ARG552",
+      "LYS553",
+      "LYS572",
+      "HIS577",
+      "ARG579",
+      "LYS584",
+      "HIS585",
+      "LYS587",
+      "LYS591",
+      "LYS597",
+      "LYS606",
+      "ARG613",
+      "ARG614",
+      "ARG641",
+      "LYS647",
+      "HIS658",
+      "LYS668",
+      "HIS673",
+      "ARG679",
+      "LYS683",
+      "ARG684",
+      "ARG687",
+      "LYS689",
+      "ARG690",
+      "HIS693",
+      "ARG700",
+      "ARG707",
+      "HIS708",
+      "ARG712",
+      "ARG722",
+      "HIS730",
+      "LYS744",
+      "LYS750",
+      "LYS614",
+      "LYS768",
+      "LYS770",
+      "ARG784",
+      "LYS792",
+      "LYS800",
+      "LYS802",
+      "LYS807",
+      "LYS808",
+      "LYS809",
+      "LYS816",
+      "LYS833",
+      "HIS834",
+      "ARG839",
+      "ARG849",
+      "LYS875",
+      "LYS883",
+      "LYS890",
+      "LYS903",
+      "HIS909",
+      "LYS912",
+      "LYS914",
+      "LYS920",
+      "ARG927",
+      "ARG947",
+      "HIS948",
+      "HIS962",
+      "HIS967",
+      "LYS831",
+      "LYS838",
+      "ARG982",
+      "LYS1000",
+      "LYS1001",
+      "HIS1005",
+      "LYS1008",
+      "LYS1015",
+      "ARG1021",
+      "HIS1022",
+      "HIS1023",
+      "LYS1045",
+      "ARG1052",
+      "LYS1059",
+      "LYS1065",
+      "LYS1066",
+      "ARG1076",
+      "LYS1078",
+      "HIS1089",
+      "LYS953",
+      "LYS957",
+      "HIS958"
+    ],
+    "negative_charge": [
+      "GLU145",
+      "GLU146",
+      "ASP161",
+      "ASP164",
+      "ASP170",
+      "ASP171",
+      "GLU172",
+      "GLU174",
+      "GLU187",
+      "ASP192",
+      "GLU209",
+      "ASP238",
+      "ASP239",
+      "ASP118",
+      "GLU121",
+      "GLU125",
+      "ASP269",
+      "ASP278",
+      "GLU279",
+      "GLU284",
+      "GLU301",
+      "GLU302",
+      "ASP308",
+      "ASP312",
+      "ASP316",
+      "GLU317",
+      "GLU179",
+      "GLU180",
+      "ASP185",
+      "ASP186",
+      "GLU195",
+      "ASP203",
+      "GLU205",
+      "ASP214",
+      "ASP358",
+      "ASP369",
+      "ASP236",
+      "GLU384",
+      "GLU406",
+      "GLU407",
+      "GLU415",
+      "ASP422",
+      "GLU306",
+      "GLU311",
+      "ASP470",
+      "GLU479",
+      "GLU350",
+      "ASP351",
+      "ASP500",
+      "ASP509",
+      "GLU511",
+      "ASP521",
+      "ASP395",
+      "GLU397",
+      "ASP399",
+      "GLU546",
+      "GLU556",
+      "ASP562",
+      "GLU570",
+      "ASP571",
+      "GLU573",
+      "GLU581",
+      "GLU602",
+      "GLU615",
+      "ASP618",
+      "ASP623",
+      "ASP632",
+      "ASP637",
+      "GLU638",
+      "GLU649",
+      "GLU652",
+      "ASP653",
+      "ASP654",
+      "ASP655",
+      "GLU670",
+      "ASP674",
+      "GLU702",
+      "GLU718",
+      "ASP731",
+      "GLU740",
+      "ASP748",
+      "GLU613",
+      "ASP616",
+      "GLU772",
+      "GLU781",
+      "ASP788",
+      "GLU799",
+      "GLU814",
+      "ASP819",
+      "GLU826",
+      "ASP836",
+      "ASP837",
+      "ASP841",
+      "GLU852",
+      "GLU856",
+      "GLU858",
+      "ASP861",
+      "ASP874",
+      "GLU880",
+      "ASP884",
+      "ASP904",
+      "GLU905",
+      "GLU913",
+      "GLU918",
+      "GLU919",
+      "GLU926",
+      "ASP946",
+      "ASP950",
+      "GLU956",
+      "ASP964",
+      "GLU981",
+      "ASP990",
+      "ASP1011",
+      "GLU1046",
+      "ASP1047",
+      "GLU1049",
+      "ASP1053",
+      "GLU1061",
+      "GLU1062",
+      "ASP1063",
+      "ASP1070",
+      "GLU1073",
+      "ASP1077",
+      "GLU956"
+    ],
+    "metal_coordination_sites": []
+  }
+}

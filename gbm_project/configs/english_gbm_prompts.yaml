@@ -1,0 +1,334 @@
+### GBM Domain Knowledge Prompts (English Version)
+
+base_gbm_prompt: |
+  You are an expert in GBM drug development, specializing in novel drug candidates for Glioblastoma Multiforme (GBM).
+  You need to generate candidate compounds based on GBM biological characteristics, clinical treatment experience, and molecular design principles.
+
+  Key GBM biological characteristics:
+  - High heterogeneity and invasiveness
+  - Blood-brain barrier (BBB) limiting drug entry
+  - Multiple resistance mechanisms
+  - Immunosuppressive microenvironment
+  - Stem cell subpopulations causing recurrence
+
+  GBM treatment challenges:
+  - TMZ chemotherapy resistance rate up to 90%
+  - Poor prognosis for recurrent GBM
+  - Damage to normal brain tissue
+  - Tumor heterogeneity leading to treatment failure
+
+  Please design novel drug candidates with the following characteristics:
+  {specific_requirements}
+
+connection_score_definition: |
+  The `connection_score` field measures connectivity between an L1000 drug transcriptional signature
+  and a single cell's expression over shared genes. It is computed as the Spearman correlation (rho)
+  between the signature and the cell, then transformed with the Fisher z transform:
+  z = 0.5 * ln((1 + rho) / (1 - rho)). Positive z indicates concordant connectivity; negative z indicates discordant/anti-correlation.
+
+target_specific_prompts:
+  EGFR: |
+    Design GBM candidates targeting the EGFR pathway:
+
+    EGFR role in GBM:
+    - Most common gene amplification (~40%)
+    - EGFRvIII mutation with immunogenicity
+    - Drives excessive tumor cell proliferation
+
+    Design requirements:
+    - Prioritize targeting EGFRvIII mutants
+    - Overcome resistance mechanisms (T790M, etc.)
+    - Optimize blood-brain barrier penetration
+    - Reduce wild-type EGFR toxicity
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-4
+    - Tyrosine kinase inhibitor structure
+
+  VEGF_VEGFR: |
+    Design GBM anti-angiogenic drugs targeting VEGF/VEGFR pathways:
+
+    VEGF role in GBM:
+    - Drives pathological angiogenesis
+    - Promotes tumor growth and invasion
+    - Creates immunosuppressive microenvironment
+
+    Design requirements:
+    - Small molecule oral formulations
+    - Overcome vascular normalization paradox
+    - Potential for combination with immunotherapy
+    - Reduce bleeding risk
+
+    Molecular features:
+    - Molecular weight: 450-600 Da
+    - logP: 1-3
+    - VEGFR inhibitor pharmacophores
+
+  IDH1_IDH2: |
+    Design GBM candidates targeting IDH1/IDH2 mutations:
+
+    IDH mutations in GBM:
+    - Mainly in secondary GBM (~10%)
+    - Leads to 2-HG accumulation
+    - Affects epigenetic regulation
+
+    Design requirements:
+    - IDH1/2 selective inhibition
+    - Target mutants (R132H, R172K)
+    - Improve clinical prognosis
+    - Potential immunomodulatory effects
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-4
+    - IDH inhibitor structure
+
+  MGMT: |
+    Design GBM candidates targeting MGMT-mediated TMZ resistance:
+
+    MGMT role in GBM:
+    - Repairs TMZ-induced DNA damage
+    - MGMT expression levels affect prognosis
+    - Epigenetic silencing can reverse resistance
+
+    Design requirements:
+    - Bypass MGMT repair mechanisms
+    - Target MGMT-expressing tumors
+    - Overcome multidrug resistance
+    - Potential for combination with TMZ
+
+    Molecular features:
+    - Molecular weight: 350-500 Da
+    - logP: 1-3
+    - DNA damage enhancers
+
+  GBM_Stem_Cells: |
+    Design candidates targeting GBM stem cells:
+
+    GBM stem cell features:
+    - Express CD133, SOX2, OLIG2
+    - Highly resistant and invasive
+    - Cause tumor recurrence
+
+    Design requirements:
+    - Induce stem cell differentiation
+    - Target stem cell-specific pathways
+    - Overcome multidrug resistance
+    - Reduce toxicity to normal stem cells
+
+    Molecular features:
+    - Molecular weight: 400-550 Da
+    - logP: 2-5
+    - Stem cell differentiation inducers
+
+cot_reasoning_templates:
+  step_by_step_design: |
+    Let's think through this GBM candidate molecule design step by step:
+
+    1. Target Selection and Validation:
+       - Select most relevant targets based on GBM molecular subtypes
+       - Consider target expression levels and function in GBM
+       - Assess target criticality for GBM growth
+
+    2. Molecular Scaffold Design:
+       - Choose scaffolds with BBB penetration potential
+       - Reference structural features of known GBM drugs
+       - Ensure synthetic feasibility and drug-likeness
+
+    3. Pharmacophore Optimization:
+       - Design structures with high target affinity
+       - Optimize selectivity and binding stability
+       - Consider impact of resistance mutations
+
+    4. ADMET Property Optimization:
+       - Predict and optimize BBB permeability
+       - Assess hepatotoxicity and nephrotoxicity risks
+       - Optimize metabolic stability and half-life
+
+    5. GBM Specificity Validation:
+       - Evaluate activity against GBM cells
+       - Verify toxicity to normal cells
+       - Confirm target selectivity
+
+    Based on the above analysis, design candidate molecule:
+
+  clinical_relevance_assessment: |
+    Assess molecular design from clinical perspective:
+
+    Clinical translation potential:
+    - Oral bioavailability
+    - Plasma half-life and dosing frequency
+    - Potential drug-drug interactions
+    - Preclinical toxicity predictions
+
+    GBM treatment advantages:
+    - Overcome limitations of existing treatments
+    - Improve progression-free survival
+    - Reduce treatment-related adverse events
+    - Improve patient quality of life
+
+    Development feasibility:
+    - Synthetic route complexity
+    - Scale-up production costs
+    - Intellectual property status
+    - Clinical trial design
+
+constraint_templates:
+  bbb_optimization: |
+    Blood-brain barrier penetration optimization requirements:
+    - Molecular weight < {mw_threshold} Da
+    - logP in range {logp_min}-{logp_max}
+    - TPSA < {tpsa_threshold} Å²
+    - HBD ≤ {hbd_max}
+    - Avoid highly polar groups
+
+  selectivity_design: |
+    GBM selectivity design principles:
+    - Target GBM-specific mutations
+    - Minimize toxicity to normal cells
+    - Consider tumor microenvironment differences
+    - Optimize therapeutic index
+
+  resistance_evasion: |
+    Resistance evasion strategies:
+    - Multi-target synergistic effects
+    - Irreversible binding mechanisms
+    - Bypass major resistance pathways
+    - Dynamic adaptive design
+
+evaluation_prompts:
+  bbb_assessment: |
+    Assess the blood-brain barrier penetration potential of the molecule:
+    - Analyze physicochemical properties
+    - Predict BBB permeability coefficient
+    - Identify potential transport mechanisms
+    - Evaluate clinical translation potential
+
+  gbm_activity_prediction: |
+    Predict therapeutic activity of molecule against GBM:
+    - Target binding affinity
+    - Cell growth inhibition effects
+    - Apoptosis induction capability
+    - Anti-tumor invasion effects
+
+  toxicity_evaluation: |
+    Assess potential toxicity risks:
+    - Normal cell toxicity
+    - Organ-specific toxicity
+    - Genotoxicity risks
+    - Immunotoxicity assessment
+
+# Tree-of-Thoughts (ToT) Design Templates
+# These templates support multi-step reasoning with breadth-first search (BFS) strategy
+tot_design_nodes:
+  propose_scaffold: |
+    Target: {target_name}. Requirements: MW {mw_range}, BBB {bbb_requirement}, LogP {logp_range}.
+    [FORMAT] Output EXACTLY this structure for each scaffold, 6 lines max:
+    Scaffold 1:
+    Name: <name>
+    Rationale: <max 10 words>
+    Base MW: <N> Da
+    BBB Potential: <high/medium/low>
+
+    Scaffold 2:
+    Name: <name>
+    Rationale: <max 10 words>
+    Base MW: <N> Da
+    BBB Potential: <high/medium/low>
+
+    Scaffold 3:
+    Name: <name>
+    Rationale: <max 10 words>
+    Base MW: <N> Da
+    BBB Potential: <high/medium/low>
+
+    OUTPUT ONLY the 3 scaffolds above. No other text. Max 30 words total.
+
+  propose_assembly: |
+    Scaffold: {selected_scaffold}, Base MW: {scaffold_mw} Da. Budget: {remaining_mw} Da remaining. Target total: {target_mw} Da.
+
+    [FORMAT] Output EXACTLY this structure for each strategy, 7 lines max:
+    Strategy 1:
+    Warhead: <type>
+    BBB Enhancers: <list>
+    Estimated Total MW: <N> Da
+    Expected LogP: <range>
+    Expected TPSA: <range>
+    Rationale: <max 10 words>
+
+    Strategy 2:
+    Warhead: <type>
+    BBB Enhancers: <list>
+    Estimated Total MW: <N> Da
+    Expected LogP: <range>
+    Expected TPSA: <range>
+    Rationale: <max 10 words>
+
+    Strategy 3:
+    Warhead: <type>
+    BBB Enhancers: <list>
+    Estimated Total MW: <N> Da
+    Expected LogP: <range>
+    Expected TPSA: <range>
+    Rationale: <max 10 words>
+
+    OUTPUT ONLY the 3 strategies above. No other text. Max 45 words total.
+
+  generate_smiles: |
+    Design: scaffold={selected_scaffold}, warhead={warhead_type}, enhancers={bbb_enhancers}.
+    Target MW: {target_mw} Da (range: 150-700). LogP: {target_logp_range}. TPSA: {target_tpsa_range} (must be > 0).
+    MUST contain 2-8 aromatic rings and at least one polar group: amide C(=O)N, amine N, ether O, hydroxyl O, or heterocycle.
+    NEVER output all-carbon chains.
+
+    OUTPUT (exactly 3 lines, NO other text):
+    SMILES 1: <smiles>
+    SMILES 2: <smiles>
+    SMILES 3: <smiles>
+    Examples: Cc1cc(nc(-c2ccc(Cl)cc2)n1)C(=O)Nc3ccc(F)cc3 | COc1ccc(cc1)C(=O)Nc2cc(C)nc(-c3ccccn3)c2 | CC(=O)Nc1ccc(-n2ccnc2)cc1C(=O)Nc3ccccc3
+
+  # ---- Physical feedback injection template (replaces LLM self-evaluation) ----
+  # Reference: chemcrow/prompts.py — embedding tool results into prompt pattern
+  feedback_injected_propose: |
+    PHYSICAL ENGINE EVALUATION (Replacing LLM Self-Evaluation)
+    ============================================================================
+
+    {domain_prompt}
+
+    PREVIOUS ITERATION PHYSICAL TEST RESULTS:
+    {physical_feedback}
+
+    {next_action_hint}
+
+    CRITICAL: Use the physical evaluation data above as ground truth.
+    Do NOT repeat the previous design if it had poor metrics.
+    Optimize specifically for: higher Vina score, lower DILI, higher BBB.
+
+  # ---- 多轮反馈汇总模板（用于批量反馈）----
+  feedback_batch_summary: |
+    PHYSICAL ENGINE BATCH EVALUATION SUMMARY
+    ============================================================================
+
+    {domain_prompt}
+
+    {batch_feedback}
+
+    GUIDANCE: Based on the evaluation results above, prioritize candidates
+    with higher Vina scores (more negative), lower DILI risk, and higher BBB permeability.
+    Discard branches that were hard-pruned by physical engine.
+
+  # ---- 物理评分报告模板（用于结果分析）----
+  physical_report: |
+    PHYSICAL SCORING REPORT (External Physical Engine Results)
+    ============================================================================
+
+    Candidate: {smiles}
+    Previous Design: {previous_smiles}
+
+    PHYSICAL METRICS:
+    {physical_feedback}
+
+    REWARD: {reward:.4f}
+    STATUS: {verdict}
+
+    This is objective physical data. Use it to guide next-step optimization.

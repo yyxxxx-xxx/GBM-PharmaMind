@@ -1,0 +1,11 @@
+entity_id,mol_id,library_name,smiles,drugclip_score,vina_docking_score,MW,TPSA,Consensus Log P,BBB permeant,Pgp substrate,PAINS #alerts,Brenk #alerts,Synthetic Accessibility
+69f0bc486bb9eb2523e4b737,VEGF_VEGFR_00006,VEGF,NC1=CC=C(Nc2ccccn2)C=C(Br)C=N1,0.67,-5.2,291.15,63.3,1.83,Yes,No,0,0,3.56
+69f0bc486bb9eb2523e4b735,VEGF_VEGFR_00000,VEGF,Cc1cc(C(=O)Nc2ccc(F)cc2)nc(-c2ccc(Cl)cc2)n1,0.62,-6.68,341.77,54.88,4.09,Yes,No,0,0,2.46
+69f0bc486bb9eb2523e4b734,VEGF_VEGFR_00000,VEGF,Cc1cc(C(=O)Nc2ccc(F)cc2)nc(-c2ccc(Cl)cc2)n1,0.61,89.97,341.77,54.88,4.09,Yes,No,0,0,2.46
+69f0bc486bb9eb2523e4b738,VEGF_VEGFR_00007,VEGF,Cc1cc(NC(=O)n2cc(Br)cc2C)cc(-c2ccccn2)n1,0.58,-6.5,371.23,59.81,3.17,Yes,No,0,0,2.99
+69f0bc486bb9eb2523e4b739,VEGF_VEGFR_00008,VEGF,CC(C)(C)OC(=O)Nc1ccc(-n2ccnc2)cc1C(=O)Nc1ccccc1,0.57,-5.26,378.42,85.25,3.05,No,No,0,0,2.97
+69f0bc486bb9eb2523e4b73c,VEGF_VEGFR_00015,VEGF,Cc1ccnc(N)n1,0.5,-4.22,109.13,51.8,0.43,No,No,0,0,1.27
+69f0bc486bb9eb2523e4b73d,VEGF_VEGFR_00018,VEGF,NC(=O)NC1=C(Cl)C=C(Cl)N=C(N)S1,0.45,-5.23,253.11,118.8,0.59,No,No,0,1,3.92
+69f0bc486bb9eb2523e4b736,VEGF_VEGFR_00003,VEGF,NCOC(=O)Cc1cc(Cl)cc(-c2ccc(F)cc2)n1,-0.01,,,,,,,,,
+69f0bc486bb9eb2523e4b73b,VEGF_VEGFR_00013,VEGF,CB(OC(C)(C)C)B(O)O,-0.08,,,,,,,,,
+69f0bc486bb9eb2523e4b73a,VEGF_VEGFR_00010,VEGF,COc1ccc(Br)cc1NC(=S)[C@@H]1CC[C@H](O)[C@@H](O)N1,-1.04,,,,,,,,,

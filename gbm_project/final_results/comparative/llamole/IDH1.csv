@@ -1,0 +1,27 @@
+entity_id,mol_id,library_name,smiles,drugclip_score,vina_docking_score,MW,TPSA,Consensus Log P,BBB permeant,Pgp substrate,PAINS #alerts,Brenk #alerts,Synthetic Accessibility
+69fcf6ed2a818019f02573d7,llamole_retro_20260507_191922,IDH1,COc1ccccc1N(C)C(C)(C)C(C)(C)CCOc1ccccc1Cl,1.49,-8.31,375.93,21.7,5.36,No,No,0,0,2.86
+69fcf6ed2a818019f02573df,llamole_retro_20260507_191922,IDH1,CCCC(CC(=O)Nc1ccccc1)NC(C)(C)OC,0.77,-6.86,278.39,50.36,2.8,Yes,Yes,0,1,2.78
+69fcf6ed2a818019f02573da,llamole_retro_20260507_191922,IDH1,CC[NH+](CC)CC,0.64,-3.33,102.2,4.44,0.45,No,No,0,0,1
+69fcf6ed2a818019f02573d8,llamole_retro_20260507_191922,IDH1,Cc1ccccc1N(C)C(C)(C)C(C)(C)C,0.54,-6.91,219.37,3.24,4.04,Yes,No,0,0,1.44
+69fcf6ed2a818019f02573d3,llamole_retro_20260507_191922,IDH1,CCC(C)(C)N(C)c1ccccc1OC,0.5,-6.48,207.31,12.47,2.96,Yes,No,0,0,1.54
+69fcf6ed2a818019f02573d5,llamole_retro_20260507_191922,IDH1,CCC(C)(C)N(C)c1ccccc1C,0.49,-6.63,191.31,3.24,3.49,Yes,No,0,0,1.23
+69fcf6ed2a818019f02573d1,llamole_retro_20260507_191922,IDH1,CC(C)C,0.43,-2.88,58.12,0,1.82,No,No,0,0,1
+69fcf6ed2a818019f02573cd,llamole_retro_20260507_191922,IDH1,COCOC(C)=O,0.33,-3.1,104.1,35.53,0.36,No,No,0,1,1.74
+69fcf6ed2a818019f02573e2,llamole_retro_20260507_191922,IDH1,COCOC,0.32,-2.42,76.09,18.46,0.26,No,No,0,1,2.47
+69fcf6ed2a818019f02573d9,llamole_retro_20260507_191922,IDH1,COC(=O)/N=C/c1cccc(Nc2ccc(Br)cc2)c1,0.3,-7.01,333.18,50.69,3.78,Yes,No,0,1,2.62
+69fcf6ed2a818019f02573db,llamole_retro_20260507_191922,IDH1,COC(=O)/N=C/c1cccc(Nc2ccc(Br)cc2)c1,0.3,-7.33,333.18,50.69,3.78,Yes,No,0,1,2.62
+69fcf6ed2a818019f02573d2,llamole_retro_20260507_191922,IDH1,CC(C)(C)OC(=O)[C@@H]1CCCC[C@H]1C(=O)NCC(=O)NCCc1cccnc1,0.26,-7.37,389.49,97.39,2.29,No,Yes,0,0,3.72
+69fcf6ed2a818019f02573ca,llamole_retro_20260507_191922,IDH1,CCCC(CC(=O)Nc1ccccc1)NCC,0.22,-6.67,234.34,41.13,2.71,Yes,No,0,0,2.26
+69fcf6ed2a818019f02573e1,llamole_retro_20260507_191922,IDH1,COCCOC(C)=O,0.18,-3.29,118.13,35.53,0.49,No,No,0,0,1.7
+69fcf6ed2a818019f02573dd,llamole_retro_20260507_191922,IDH1,O=C(O)O,0.14,-2.33,62.02,57.53,-0.43,No,No,0,0,1.36
+69fcf6ed2a818019f02573cc,llamole_retro_20260507_191922,IDH1,COBCCOCCO,0.08,,131.97,38.69,-0.53,No,No,0,1,2.18
+69fcf6ed2a818019f02573de,llamole_retro_20260507_191922,IDH1,C/C=C\C=CCNC,0.07,-4.66,111.18,12.03,1.55,Yes,No,0,1,2.73
+69fcf6ed2a818019f02573ce,llamole_retro_20260507_191922,IDH1,NC1=CNC=NC(Cl)=N1,0,,,,,,,,,
+69fcf6ed2a818019f02573cf,llamole_retro_20260507_191922,IDH1,CC(C)(C)OC(=O)[C@@H]1CCCC[C@H]1C(=O)NCC(=O)NCCc1cccnc1,-0.04,,,,,,,,,
+69fcf6ed2a818019f02573d0,llamole_retro_20260507_191922,IDH1,Cc1cc(Cl)ccc1C(=O)OC(C)(C)C,-0.06,,,,,,,,,
+69fcf6ed2a818019f02573e3,llamole_retro_20260507_191922,IDH1,CCCCC(=O)C[C@@H](NC(=O)Nc1ccc(-n2cccn2)cc1)c1cccs1,-0.11,,,,,,,,,
+69fcf6ed2a818019f02573d4,llamole_retro_20260507_191922,IDH1,CC(C)CNCc1c(Cl)ncnc1Cl,-0.52,,,,,,,,,
+69fcf6ed2a818019f02573dc,llamole_retro_20260507_191922,IDH1,Cc1cnc2[nH]c(=O)c-2nn1C,-0.65,,,,,,,,,
+69fcf6ed2a818019f02573e0,llamole_retro_20260507_191922,IDH1,Cn1nnc(N)c1C#N,-0.69,,,,,,,,,
+69fcf6ed2a818019f02573d6,llamole_retro_20260507_191922,IDH1,C/C=C\C=CCNC(=O)Nc1ccccc1,-0.76,,,,,,,,,
+69fcf6ed2a818019f02573cb,llamole_retro_20260507_191922,IDH1,C/C=C\C=CCNC(=O)Nc1ccccc1,-0.76,,,,,,,,,

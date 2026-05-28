@@ -1,0 +1,168 @@
+{
+  "market_gbm_drugs": [
+    {
+      "name": "Temozolomide",
+      "smiles": "Cn1cnc2N(C)C(=O)N(C)C(=O)c12",
+      "formula": "C6H6N6O2",
+      "mw": 194.15,
+      "logp": 0.35,
+      "tpsa": 83.0,
+      "target": "DNA alkylation",
+      "mechanism": "DNA methylating agent, causes apoptosis",
+      "BBB_permeability": "good",
+      "scaffold": "imidazotetrazine",
+      "structural_motifs": ["diazole_ring", "amide_groups", "methyl_substituents"],
+      "reference_score": 0.65
+    },
+    {
+      "name": "Bevacizumab",
+      "smiles": "CCCCC(C(=O)NC1CC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CC2=CC=C(C=C2)O)CC(C)C)CC3=CNC4=CC=CC=C43)CC5=CC=C(C=C5)O)O",
+      "formula": "C6638H10134N1726O2108S42",
+      "mw": 149000,
+      "logp": null,
+      "tpsa": null,
+      "target": "VEGF",
+      "mechanism": "VEGF monoclonal antibody, inhibits angiogenesis",
+      "BBB_permeability": "poor",
+      "scaffold": "monoclonal_antibody",
+      "structural_motifs": ["antibody_framework", "CDR_regions"],
+      "reference_score": 0.30
+    },
+    {
+      "name": "Everolimus",
+      "smiles": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC",
+      "formula": "C53H83NO14",
+      "mw": 958.23,
+      "logp": 4.80,
+      "tpsa": 203.0,
+      "target": "mTOR",
+      "mechanism": "mTOR inhibitor, blocks PI3K/AKT pathway",
+      "BBB_permeability": "moderate",
+      "scaffold": "rapamycin_analog",
+      "structural_motifs": ["macrolide_ring", "pipecolic_acid", "hydroxy_groups"],
+      "reference_score": 0.55
+    },
+    {
+      "name": "Carmustine",
+      "smiles": "C1CC2=C(C=C(C=C2)Cl)C(=O)N1C(=O)N.Cl",
+      "formula": "C5H9Cl2N3O2",
+      "mw": 214.05,
+      "logp": 2.31,
+      "tpsa": 58.0,
+      "target": "DNA alkylation",
+      "mechanism": "Chloroethylnitrosourea alkylating agent",
+      "BBB_permeability": "good",
+      "scaffold": "nitrosourea",
+      "structural_motifs": ["urea_group", "chloroethyl", "cyclic_carbamate"],
+      "reference_score": 0.60
+    },
+    {
+      "name": "Lomustine",
+      "smiles": "CC1CCC(CC1)C(=O)N2C(=O)N(C(=O)N2)Cl",
+      "formula": "C9H16ClN3O2",
+      "mw": 233.69,
+      "logp": 1.95,
+      "tpsa": 58.0,
+      "target": "DNA alkylation",
+      "mechanism": "Chloroethylnitrosourea alkylating agent",
+      "BBB_permeability": "good",
+      "scaffold": "nitrosourea",
+      "structural_motifs": ["urea_group", "chloroethyl", "cyclohexyl"],
+      "reference_score": 0.62
+    },
+    {
+      "name": "Erlotinib",
+      "smiles": "COCCOc1cc2c(cc1OCCOC)ncnc2Nc3cccc(c3)C#C",
+      "formula": "C22H23N3O4",
+      "mw": 393.44,
+      "logp": 4.20,
+      "tpsa": 75.0,
+      "target": "EGFR",
+      "mechanism": "EGFR tyrosine kinase inhibitor",
+      "BBB_permeability": "high",
+      "scaffold": "quinazoline",
+      "structural_motifs": ["quinazoline_core", "alkyne_substituent", "ethoxy_groups"],
+      "reference_score": 0.78
+    },
+    {
+      "name": "Gefitinib",
+      "smiles": "COCCOc1cc2c(cc1OCCOC)ncnc2Nc3cccc(c3)C(F)(F)F",
+      "formula": "C22H24F3N3O3",
+      "mw": 446.44,
+      "logp": 4.30,
+      "tpsa": 75.0,
+      "target": "EGFR",
+      "mechanism": "EGFR tyrosine kinase inhibitor",
+      "BBB_permeability": "high",
+      "scaffold": "quinazoline",
+      "structural_motifs": ["quinazoline_core", "trifluoromethyl", "ethoxy_groups"],
+      "reference_score": 0.80
+    },
+    {
+      "name": "Afatinib",
+      "smiles": "CN(C)CC=CC(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1OCCOC",
+      "formula": "C24H25ClFN5O3",
+      "mw": 485.94,
+      "logp": 4.40,
+      "tpsa": 90.0,
+      "target": "EGFR/HER2",
+      "mechanism": "Irreversible EGFR/HER2 inhibitor",
+      "BBB_permeability": "high",
+      "scaffold": "quinazoline",
+      "structural_motifs": ["quinazoline_core", "acrylamide", "chlorofluoro_substituents"],
+      "reference_score": 0.82
+    },
+    {
+      "name": "Osimertinib",
+      "smiles": "CN1C=C(C2=CC=CC=C21)C3=NC(=NC=C3)NC4=C(C=C(C(=C4)NC(=O)C=C)OC)OC",
+      "formula": "C28H33N7O2",
+      "mw": 499.61,
+      "logp": 4.10,
+      "tpsa": 95.0,
+      "target": "EGFR T790M",
+      "mechanism": "Third-generation EGFR inhibitor",
+      "BBB_permeability": "high",
+      "scaffold": "indole",
+      "structural_motifs": ["indole_core", "methoxy_groups", "acrylamide"],
+      "reference_score": 0.85
+    }
+  ],
+  "structural_motifs_library": {
+    "BBB_permeable_cores": [
+      {"name": "quinazoline", "smiles": "c1ccc2c(c1)cncn2", "BBB_score": 0.85},
+      {"name": "pyrimidine", "smiles": "c1cncnc1", "BBB_score": 0.75},
+      {"name": "imidazotetrazine", "smiles": "c1nc2nnc(cn2)n1", "BBB_score": 0.80},
+      {"name": "nitrosourea", "smiles": "NC(=O)N", "BBB_score": 0.70}
+    ],
+    "selective_warheads": [
+      {"name": "acrylamide", "smiles": "C=CC(=O)N", "selectivity": "EGFR_covalent"},
+      {"name": "cyanoacrylamide", "smiles": "C=CC(=O)NC#N", "selectivity": "BTK_specific"},
+      {"name": "quinazoline_4_amino", "smiles": "c1ccc2c(c1)c(N)ncn2", "selectivity": "kinase_family"}
+    ],
+    "BBB_enhancers": [
+      {"name": "small_lipophilic_ring", "smiles": "c1ccccc1", "effect": "+0.3_logBB"},
+      {"name": "fluorine", "smiles": "F", "effect": "+0.1_logBB"},
+      {"name": "methoxy", "smiles": "OC", "effect": "+0.2_logBB"}
+    ]
+  },
+  "design_constraints": {
+    "BBB_optimization": {
+      "mw_range": [200, 500],
+      "logp_range": [2.0, 4.5],
+      "tpsa_max": 90,
+      "hbd_max": 2,
+      "hba_max": 6,
+      "rotatable_bonds_max": 8
+    },
+    "GBM_selectivity": {
+      "activity_threshold": 7.0,
+      "toxicity_threshold": 4.0,
+      "selectivity_ratio_min": 10.0
+    },
+    "synthetic_feasibility": {
+      "sa_score_min": 6.0,
+      "ring_count_max": 5,
+      "heavy_atom_max": 40
+    }
+  }
+}

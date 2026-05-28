@@ -1,0 +1,26 @@
+entity_id,mol_id,library_name,smiles,drugclip_score,vina_docking_score,MW,TPSA,Consensus Log P,BBB permeant,Pgp substrate,PAINS #alerts,Brenk #alerts,Synthetic Accessibility
+69f0b0b52a818019f0feab5a,EGFR_00000,EGFR,Cc1cc(NC(=O)n2cc(Br)cc2C)c(C(=O)OCCCN2CCCCC2)c(-c2ccccn2)n1,1.39,-7.05,540.45,89.35,4.31,No,Yes,0,0,4.01
+69f0b0b52a818019f0feab60,EGFR_00000,EGFR,O=COC(=O)Nc1ccc(I)cc1F,0.83,-4.59,309.03,55.4,2.25,Yes,No,0,4,2.28
+69f0b0b52a818019f0feab63,EGFR_00000,EGFR,CC(=O)Nc1ccc(-n2ccnc2)cc1C(=O)Cl,0.69,-5.91,263.68,63.99,1.61,Yes,No,0,1,1.88
+69f0b0b52a818019f0feab54,EGFR_00000,EGFR,N#Cc1cc(Cl)ccc1-n1c(F)cnc1N,0.6,-5.44,236.63,67.63,1.92,Yes,No,0,0,2.07
+69f0b0b52a818019f0feab68,EGFR_00000,EGFR,COc1cc(Br)cn1C(O)Oc1ccccc1,0.52,-5.66,298.13,43.62,2.51,Yes,No,0,1,2.96
+69f0b0b52a818019f0feab66,EGFR_00000,EGFR,Cc1ccc(CNN(C)CCCN)cc1,0.06,-4.58,207.32,41.29,1.73,Yes,No,0,0,1.93
+69f0b0b52a818019f0feab67,EGFR_00000,EGFR,C=CBr,-0.2,,,,,,,,,
+69f0b0b52a818019f0feab5b,EGFR_00000,EGFR,CCC[C@H](NC(=O)OC(C)(C)C)C(=O)NC(=O)OC(C)(C)C,-0.26,,,,,,,,,
+69f0b0b52a818019f0feab5d,EGFR_00000,EGFR,O=[SH](=O)C1=CC(Cl)=NC(c2ccc3ccccc3c2)=NS1,-0.3,,,,,,,,,
+69f0b0b52a818019f0feab62,EGFR_00000,EGFR,CC(C)(C#N)N=C1C=CC(c2ccnc(Nc3ccccc3)c2)=C1C#N,-0.32,,,,,,,,,
+69f0b0b52a818019f0feab57,EGFR_00000,EGFR,CN1C[C@H](CN)C(OS(=O)(=O)C(C)(C)C)[C@@H](O[Si](C)(C)C(C)(C)C)C1,-0.47,,,,,,,,,
+69f0b0b52a818019f0feab61,EGFR_00000,EGFR,NC#Cc1ccnc(-c2ccc(O[Si](Cl)(Cl)Cl)cc2)n1,-0.55,,,,,,,,,
+69f0b0b52a818019f0feab69,EGFR_00000,EGFR,COc1ccc(Br)cc1C(=O)OC(C)(C)CCON=C(C)C,-0.6,,,,,,,,,
+69f0b0b52a818019f0feab56,EGFR_00000,EGFR,Cc1cc(N)nc(-c2ccc(C(=O)OC(C)(C)C)s2)n1,-0.74,,,,,,,,,
+69f0b0b52a818019f0feab5f,EGFR_00000,EGFR,Cc1cc(NC(=O)n2cc(Br)cc2C)c(Cl)c(-c2ccccn2)n1,-0.96,,,,,,,,,
+69f0b0b52a818019f0feab58,EGFR_00000,EGFR,CCOC(=O)NC(=O)C(=O)CCCN1CCC(c2ccc(Br)cc2)CC1,-1.01,,,,,,,,,
+69f0b0b52a818019f0feab55,EGFR_00000,EGFR,COc1ccc(Br)cc1C(=O)Nc1cc(C)nc(-c2ccccn2)c1,-1.16,,,,,,,,,
+69f0b0b52a818019f0feab53,EGFR_00000,EGFR,CNOCNOC1CCCN(c2ccnc(N)c2)CC1,-1.19,,,,,,,,,
+69f0b0b52a818019f0feab5e,EGFR_00000,EGFR,Cc1cc(Br)cn1CCNC(=O)C1CCCC1Cc1cc(Br)cn1CCNC(=O)C1CCCC1,-1.22,,,,,,,,,
+69f0b0b52a818019f0feab5c,EGFR_00000,EGFR,Cc1cc(Br)ccc1NC(=O)Nc1ccc(Cl)cc1,-1.32,,,,,,,,,
+69f0b0b52a818019f0feab51,EGFR_00000,EGFR,Cc1cc(C(=O)Nc2ccc(F)cc2)nc(-c2ccc(Cl)cc2)n1,-1.41,,,,,,,,,
+69f0b0b52a818019f0feab52,EGFR_00000,EGFR,Cc1cc(C(=O)Nc2ccc(F)cc2)nc(-c2ccc(Cl)cc2)n1,-1.41,,,,,,,,,
+69f0b0b52a818019f0feab59,EGFR_00000,EGFR,N=C(NCc1ccnc(N)n1)C(=O)Nc1ccc(Br)cc1,-1.44,,,,,,,,,
+69f0b0b52a818019f0feab64,EGFR_00000,EGFR,CC(C)(C)OC(=O)NC1CCC(Nc2ccc(Cl)cc2)CC1,-1.82,,,,,,,,,
+69f0b0b52a818019f0feab65,EGFR_00000,EGFR,CC[C@@H](COC(=O)Nc1ccc(Cl)cc1C)COc1cc(Cl)ccc1F,-1.96,,,,,,,,,

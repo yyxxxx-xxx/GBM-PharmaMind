@@ -1,0 +1,74 @@
+{
+  "report_title": "GBM靶点结构信息提取报告",
+  "processing_date": "2026-01-29",
+  "total_targets": 8,
+  "successful": 8,
+  "failed": 0,
+  "targets_summary": [
+    {
+      "name": "EGFR",
+      "pdb_id": "XXXX",
+      "sequence_length": 330,
+      "binding_sites": 2,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "IDH1",
+      "pdb_id": "XXXX",
+      "sequence_length": 425,
+      "binding_sites": 1,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "TP53_MDM2",
+      "pdb_id": "XXXX",
+      "sequence_length": 114,
+      "binding_sites": 1,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "PD1_PDL1",
+      "pdb_id": "XXXX",
+      "sequence_length": 129,
+      "binding_sites": 1,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "PI3K_AKT_mTOR",
+      "pdb_id": "XXXX",
+      "sequence_length": 960,
+      "binding_sites": 2,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "VEGFR",
+      "pdb_id": "XXXX",
+      "sequence_length": 316,
+      "binding_sites": 2,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "MGMT",
+      "pdb_id": "XXXX",
+      "sequence_length": 207,
+      "binding_sites": 2,
+      "ligands": 0,
+      "status": "success"
+    },
+    {
+      "name": "MDM2",
+      "pdb_id": "XXXX",
+      "sequence_length": 85,
+      "binding_sites": 1,
+      "ligands": 0,
+      "status": "success"
+    }
+  ],
+  "model_ready": true
+}

@@ -1,0 +1,89 @@
+{
+  "clinical_data": {
+    "standard_treatment": {
+      "surgery": "Maximal tumor resection, key prognostic factor",
+      "radiotherapy": "60Gy focal radiotherapy, standard postoperative treatment",
+      "chemotherapy": "TMZ standard regimen: 75mg/m²/d × 42 days",
+      "combined_therapy": "Stupp regimen: TMZ + RT, increases OS by 2.5 months"
+    },
+    "treatment_challenges": [
+      "TMZ resistance rate up to 90%, median OS only 14.6 months",
+      "Poor prognosis for recurrent GBM, median OS 3-9 months",
+      "Blood-brain barrier limits drug entry into tumor tissue",
+      "Tumor heterogeneity and stem cells cause treatment failure",
+      "Immune microenvironment suppresses anti-tumor immune response"
+    ],
+    "failed_trials_insights": [
+      "Single-target inhibitors failed: strong tumor adaptability, pathway redundancy",
+      "Immunotherapy monotherapy failed: complex GBM immunosuppressive microenvironment",
+      "Insufficient BBB penetration: most drugs cannot reach effective concentrations",
+      "Narrow therapeutic window: normal brain tissue damage limits dosage"
+    ],
+    "successful_patterns": [
+      "Multi-target synergy: simultaneous inhibition of multiple key pathways",
+      "BBB optimization: lipophilicity optimization, active transport mechanisms",
+      "Immunotherapy combinations: targeted therapy + immune checkpoint inhibition",
+      "Stem cell targeting: elimination of tumor-initiating cells"
+    ]
+  },
+  "molecular_subtypes": {
+    "classical": {
+      "frequency": "25%",
+      "characteristics": "EGFR amplification, wild-type p53, high NES expression",
+      "treatment_response": "Sensitive to EGFR inhibitors, but prone to resistance",
+      "design_focus": "EGFR targeting + resistance prevention strategies"
+    },
+    "mesenchymal": {
+      "frequency": "25%",
+      "characteristics": "NF1 loss, MET amplification, high inflammation-related gene expression",
+      "treatment_response": "Sensitive to anti-inflammatory therapy, relatively poor prognosis",
+      "design_focus": "Immune modulation + anti-inflammatory strategies"
+    },
+    "proneural": {
+      "frequency": "25%",
+      "characteristics": "PDGFRA/IDH1 mutations, neurogenesis-related genes",
+      "treatment_response": "Sensitive to differentiation induction, relatively better prognosis",
+      "design_focus": "Epigenetic regulation + differentiation induction"
+    },
+    "neural": {
+      "frequency": "25%",
+      "characteristics": "High neural marker expression, strong heterogeneity",
+      "treatment_response": "Sensitive to neuroprotective agents",
+      "design_focus": "Neuroprotection + targeted therapy"
+    }
+  },
+  "biomarkers": {
+    "prognostic": {
+      "MGMT_methylation": "Chemotherapy sensitivity marker, better prognosis with methylation",
+      "IDH_mutation": "Secondary GBM, significantly improved prognosis",
+      "EGFRvIII": "Strong immunogenicity, vaccine therapy potential",
+      "TERT_promoter": "Poor prognostic marker"
+    },
+    "predictive": {
+      "MGMT": "TMZ treatment predictive factor",
+      "IDH": "Targeted therapy selection",
+      "EGFR": "Tyrosine kinase inhibitors",
+      "PD-L1": "Immune checkpoint inhibitors"
+    }
+  },
+  "resistance_mechanisms": {
+    "TMZ_resistance": [
+      "MGMT repairs DNA damage",
+      "Base excision repair pathway activation",
+      "Cell cycle checkpoint defects",
+      "Enhanced antioxidant stress response"
+    ],
+    "targeted_therapy_resistance": [
+      "Target gene amplification/mutation",
+      "Downstream pathway activation",
+      "Drug efflux pump upregulation",
+      "Tumor microenvironment changes"
+    ],
+    "immunotherapy_resistance": [
+      "Immune checkpoint upregulation",
+      "Immune cell exhaustion",
+      "Treg cell expansion",
+      "Antigen presentation defects"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "gbm_targets": [
+    {
+      "name": "EGFR",
+      "description": "Epidermal Growth Factor Receptor, the most common gene amplification in GBM (~40%), leading to excessive tumor cell proliferation",
+      "mutation_types": ["EGFRvIII", "EGFR amplification", "EGFR point mutations"],
+      "current_drugs": ["Erlotinib", "Gefitinib", "Afatinib"],
+      "challenges": ["Drug resistance", "Blood-brain barrier penetration", "Wild-type EGFR toxicity"],
+      "structural_requirements": {
+        "molecular_weight": "<500",
+        "logP": "2-4",
+        "BBB_permeability": "high",
+        "selectivity": "EGFRvIII > WT-EGFR >10-fold"
+      }
+    },
+    {
+      "name": "VEGF/VEGFR",
+      "description": "Vascular Endothelial Growth Factor pathway, key driver of angiogenesis in GBM",
+      "mutation_types": ["VEGF overexpression", "VEGFR amplification"],
+      "current_drugs": ["Bevacizumab", "Cediranib", "Pazopanib"],
+      "challenges": ["Vascular normalization paradox", "Complex resistance mechanisms", "Need for combination therapy"],
+      "structural_requirements": {
+        "molecular_weight": "<600",
+        "logP": "1-3",
+        "BBB_permeability": "medium",
+        "anti_angiogenic_selectivity": "high"
+      }
+    },
+    {
+      "name": "IDH1/IDH2",
+      "description": "Isocitrate dehydrogenase mutations, mainly in secondary GBM (~10%), with relatively better prognosis",
+      "mutation_types": ["IDH1 R132H", "IDH2 R172K"],
+      "current_drugs": ["Ivosidenib", "Enasidenib"],
+      "challenges": ["Mutation heterogeneity", "Downstream metabolite accumulation", "Immunomodulatory effects"],
+      "structural_requirements": {
+        "molecular_weight": "<500",
+        "logP": "2-4",
+        "BBB_permeability": "high",
+        "IDH_mutant_selectivity": "high"
+      }
+    },
+    {
+      "name": "MGMT",
+      "description": "O6-methylguanine-DNA methyltransferase, key factor in GBM chemotherapy resistance",
+      "mutation_types": ["MGMT promoter methylation", "MGMT expression"],
+      "current_drugs": ["Temozolomide (TMZ)"],
+      "challenges": ["Resistance development", "MGMT repair mechanisms", "Alternative DNA damage pathways"],
+      "structural_requirements": {
+        "molecular_weight": "<400",
+        "logP": "1-3",
+        "BBB_permeability": "high",
+        "DNA_damage_selectivity": "high",
+        "MGMT_bypass_mechanism": "true"
+      }
+    },
+    {
+      "name": "PD-1/PD-L1",
+      "description": "Immune checkpoint pathway, key regulator of GBM immune microenvironment",
+      "expression_pattern": ["Tumor cells", "Immune cells", "Microenvironment"],
+      "current_drugs": ["Pembrolizumab", "Nivolumab"],
+      "challenges": ["Immunosuppressive microenvironment", "BBB limitation", "Combination immunotherapy"],
+      "structural_requirements": {
+        "molecular_weight": "<800",
+        "logP": "1-4",
+        "BBB_permeability": "medium-high",
+        "immune_checkpoint_selectivity": "high"
+      }
+    },
+    {
+      "name": "PI3K/AKT/mTOR",
+      "description": "PI3K signaling pathway, most commonly activated pathway in GBM (~80%)",
+      "mutation_types": ["PTEN loss", "PIK3CA mutation", "AKT amplification"],
+      "current_drugs": ["Everolimus", "Temsirolimus"],
+      "challenges": ["Feedback activation", "Pathway redundancy", "Toxicity management"],
+      "structural_requirements": {
+        "molecular_weight": "<600",
+        "logP": "2-4",
+        "BBB_permeability": "high",
+        "PI3K_selectivity": "high",
+        "brain_penetration": "optimized"
+      }
+    },
+    {
+      "name": "p53/MDM2",
+      "description": "p53 pathway, TP53 mutation rate ~30% in GBM, MDM2 amplification ~10%",
+      "mutation_types": ["TP53 mutation", "MDM2 amplification", "MDM4 amplification"],
+      "current_drugs": ["none specific"],
+      "challenges": ["p53 pathway complexity", "Acquired resistance", "Wild-type p53 toxicity"],
+      "structural_requirements": {
+        "molecular_weight": "<550",
+        "logP": "2-4",
+        "BBB_permeability": "high",
+        "MDM2_selectivity": "high",
+        "p53_wildtype_sparing": "required"
+      }
+    }
+  ]
+}
